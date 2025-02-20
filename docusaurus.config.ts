@@ -80,6 +80,16 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
+        /*{
+          to: 'studio',
+          position: 'left',
+          label: 'Studio',
+        },
+        {
+          to: 'funcionalidades',
+          position: 'left',
+          label: 'Funcionalidades',
+        },*/
         {
           href: 'https://github.com/NOSiCode-CV/IGRP-Framework',
           label: 'GitHub',
