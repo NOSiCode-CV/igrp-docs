@@ -2,5 +2,5 @@
 sidebar_position: 2
 ---
 
-# Gerador de API
+# Designer de bases de dados
 
