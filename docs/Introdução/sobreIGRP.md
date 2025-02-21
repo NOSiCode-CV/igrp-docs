@@ -4,19 +4,7 @@ sidebar_position: 0
 
 # Sobre IGRP 3.0
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
-
-Docusaurus has **much more to offer**!
-
-
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
-
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+O **IGRP** é uma plataforma web única e robusta que permite gerir aplicações de governação eletrónica em todas as suas etapas: concessão, 
+desenvolvimento, disponibilização, monitoramento e auditoria.
+Permite o desenvolvimento _low code_ to no code de aplicações web, num studio de desenvolvimento com forte capacidade de geração automática de códigos do IGRP Studio.
+Ainda, oferece às empresas oportunidades únicas de poderem desenvolver números ilimitados de aplicativos com rapidez, qualidade e segurança.
