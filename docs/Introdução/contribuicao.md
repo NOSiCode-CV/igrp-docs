@@ -17,21 +17,21 @@ Se é a primeira vez que contribui, temos guias para o ajudar a contribuir, repo
 
 ### Conteúdo
 
-- [Código de Conduta](#book-codigo-de-conduta)
-- [Colocar Dúvidas](#bulb-colocar-duvidas)
-- [Abrir um Problema](#inbox_tray-abrir-um-problema)
-- [Reportar Questões de Segurança](#lock-reportar-questoes-de-seguranca)
-- [Relatar Erros e Outros Problemas](#beetle-relatar-erros-e-outros-problemas)
-- [Pedidos de Funcionalidade](#love_letter-pedidos-de-funcionalidade)
-- [Submeter Pull Requests](#repeat-submeter-pull-requests)
-- [Escrever Mensagens de Commit](#memo-escrever-mensagens-de-commit)
-- [Revisão de Código](#white_check_mark-revisao-de-codigo)
+- [Código de Conduta](#-código-de-conduta)
+- [Colocar Dúvidas](#-colocar-dúvidas)
+- [Abrir um Issue](#-abrir-um-issue)
+- [Reportar Problemas de Segurança](#-reportar-problemas-de-segurança)
+- [Relatar Erros e Outros Problemas](#-relatar-erros-e-outros-problemas)
+- [Pedidos de Funcionalidade](#-pedidos-de-funcionalidade)
+- [Submeter Pull Requests](#-submeter-pull-requests)
+- [Escrever Mensagens de Commit](#-escrever-mensagens-de-commit)
+- [Revisão de Código](#-revisão-de-código)
 
 ### 📖 Código de Conduta
 
 Por favor, reveja o nosso [CODIGO DE CONDUTA](CODE_OF_CONDUCT_.md). Está em vigor em todos os momentos. Esperamos que seja respeitado por todos os que contribuem para este projeto.
 
-### 💡Colocar Dúvidas
+### 💡 Colocar Dúvidas
 
 Com dificuldades? Queremos ajudar!
 
@@ -41,7 +41,7 @@ Veja o nosso [Guia de Suporte](SUPPORTE.md). Em resumo, os problemas do GitHub n
 
 ### 📥 Abrir um Issue
 
-Antes de [criar um problema](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), verifique se está a usar a versão mais recente do projeto. Se não estiver atualizado, veja se a atualização resolve o seu problema primeiro.
+Antes de [criar um issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue), verifique se está a usar a versão mais recente do projeto. Se não estiver atualizado, veja se a atualização resolve o seu issue primeiro.
 
 #### 🔒 Reportar problemas de segurança
 

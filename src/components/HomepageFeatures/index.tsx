@@ -30,8 +30,8 @@ export default function HomepageFeatures() {
             </p>
           </div>
         </div>*/}
-        <p className="text-[#1E5C8F] text-6xl !leading-[1.2] font-bold dark:text-[#1E5C8F]">
-          Segurança, interoperabilidade e inovação contínua
+        <p className="text-[#1E5C8F] text-6xl !leading-[1.4] font-bold dark:text-[#1E5C8F] text-center">
+          Segurança, interoperabilidade e <br /> inovação contínua
         </p>
       </div>
     </section>
