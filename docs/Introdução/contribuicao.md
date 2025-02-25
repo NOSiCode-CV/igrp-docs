@@ -29,7 +29,7 @@ Se é a primeira vez que contribui, temos guias para o ajudar a contribuir, repo
 
 ### 📖 Código de Conduta
 
-Por favor, reveja o nosso [CODIGO DE CONDUTA](CODE_OF_CONDUCT_.md). Está em vigor em todos os momentos. Esperamos que seja respeitado por todos os que contribuem para este projeto.
+Por favor, reveja o nosso [CODIGO DE CONDUTA](../Docs%20Referência/CODE_OF_CONDUCT_.md). Está em vigor em todos os momentos. Esperamos que seja respeitado por todos os que contribuem para este projeto.
 
 ### 💡 Colocar Dúvidas
 
@@ -37,7 +37,7 @@ Com dificuldades? Queremos ajudar!
 
 Consulte as FAQ - Contêm respostas a muitas questões comuns.
 
-Veja o nosso [Guia de Suporte](SUPPORTE.md). Em resumo, os problemas do GitHub não são o local apropriado para depurar o seu projeto específico, mas devem ser usados para reportar erros e fazer pedidos de funcionalidade.
+Veja o nosso [Guia de Suporte](../Docs%20Referência/SUPORTE.md). Em resumo, os problemas do GitHub não são o local apropriado para depurar o seu projeto específico, mas devem ser usados para reportar erros e fazer pedidos de funcionalidade.
 
 ### 📥 Abrir um Issue
 
@@ -45,13 +45,13 @@ Antes de [criar um issue](https://help.github.com/en/github/managing-your-work-o
 
 #### 🔒 Reportar problemas de segurança
 
-Consulte a nossa [Política de Segurança](SECURITY.md). **Não** crie um problema público para vulnerabilidades de segurança.
+Consulte a nossa [Política de Segurança](../Docs%20Referência/SECURITY.md). **Não** crie um problema público para vulnerabilidades de segurança.
 
 ### 🪲 Relatar Erros e outros problemas
 
 Uma excelente forma de contribuir para o projeto é enviar um relato detalhado sempre que encontrar um problema. Apreciamos muito um relatório de erro bem escrito e completo.
 
-- **Revise a documentação e o [Guia de Suporte](SUPPORTE.md)** antes de abrir um novo problema.
+- **Revise a documentação e o [Guia de Suporte](../Docs%20Referência/SUPORTE.md)** antes de abrir um novo problema.
 - **Não crie problemas duplicados!** Verifique se o problema já foi relatado. Caso exista, comente com informações adicionais.
 - **Use reações ao invés de comentar** apenas para indicar que também tem o problema.
 - **Preencha completamente o modelo de problema fornecido.** Seja claro, conciso e descritivo.
@@ -67,7 +67,7 @@ Pedidos de funcionalidade são bem-vindos! Contudo, não podemos garantir que se
 
 ### 🔁 Submeter Pull Requests
 
-Adoramos pull requests! Antes de criar um [pull request](PULL_REQUEST_TEMPLATE_.md) para alterações não triviais, é recomendável discutir primeiro discutir as mudanças, ou discutir sua abordagem pretendida para resolver o problema nos comentários de um issue existente.
+Adoramos pull requests! Antes de criar um [pull request](../Docs%20Referência/PULL_REQUEST_TEMPLATE_.md) para alterações não triviais, é recomendável discutir primeiro discutir as mudanças, ou discutir sua abordagem pretendida para resolver o problema nos comentários de um issue existente.
 
 Para a maioria das contribuições, depois que sua primeira solicitação de pull for aceita e mesclada, você será convidado para o projeto e receberá acesso de push . 🎉
 
