@@ -4,10 +4,10 @@ sidebar_position: 1
 
 # Visão Geral
 
-Para o IGRP 3.0, foi desenvolvido um MVP _**(Model View Presenter)**_ que vai desde a infraestrutura até a interface de usuário.
-
-Este novo IGRP baseia-se em microserviços que são menores e mais fáceis de manter, estender e iterar conforme as necessidades de negócios identificadas no futuro.
-Além disso, está projetado para ser executado no Kubernetes, o que permite aproveitar as vantagens deste sistema em termos de disponibilidade, escalabilidade, segurança, etc.
+O **IGRP** é uma plataforma web única e robusta que permite gerir aplicações de governação eletrónica em todas as suas etapas: concessão, 
+desenvolvimento, disponibilização, monitoramento e auditoria.
+Permite o desenvolvimento _low code to no code_ de aplicações web, num studio de desenvolvimento com forte capacidade de geração automática de códigos do IGRP Studio.
+Ainda, oferece às empresas oportunidades únicas de poderem desenvolver números ilimitados de aplicativos com rapidez, qualidade e segurança.
 
 ### Principais Componentes:
 
