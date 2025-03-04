@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'IGRP',
-  tagline: 'Inovação e Transformação Digital Low-Code para No-Code!',
+  tagline: 'Inovação e Transformação Digital 𝑳𝒐𝒘 𝑪𝒐𝒅𝒆 para 𝑵𝒐 𝑪𝒐𝒅𝒆!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

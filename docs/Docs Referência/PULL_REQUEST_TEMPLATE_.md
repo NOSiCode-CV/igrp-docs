@@ -2,7 +2,7 @@
 
 ### Objetivo
 
-> Descreva os problemas, questões ou necessidades que motivam esta funcionalidade/correção e inclua links para issues relacionadas no seguinte formato: Resolve issue1, issue2, etc.
+> Descreva os problemas, questões ou necessidades que motivam esta funcionalidade/correção e inclua _links_ para issues relacionadas no seguinte formato: Resolve issue1, issue2, etc.
 
 ### Metas
 
@@ -10,7 +10,7 @@
 
 ### Abordagem
 
-> Descreva como está a implementar as soluções. Inclua um GIF animado ou uma captura de ecrã se a alteração afetar a UI. Inclua um link para um ficheiro Markdown ou um documento Google se a descrição da funcionalidade for muito extensa para colar aqui.
+> Descreva como está a implementar as soluções. Inclua um GIF animado ou uma captura de ecrã se a alteração afetar a UI. Inclua um _link_ para um ficheiro _Markdown_ ou um documento Google se a descrição da funcionalidade for muito extensa para colar aqui.
 
 ### Histórias de Utilizador
 

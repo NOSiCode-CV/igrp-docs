@@ -38,6 +38,10 @@ Ainda, oferece às empresas oportunidades únicas de poderem desenvolver número
 -   Infraestrutura como código via **_Helm Charts_** e **ArgoCD** para facilitar a implantação.
 -   Suporte para CI/CD (Integração e Entrega Contínuas) nas aplicações geradas.
 
+#### 6. Licença
+
+O projeto está licenciado sob a licença Apache 2.0 – consulte o ficheiro [Licença](../Docs%20Referência/LICENSE.txt) para mais detalhes.
+
 ### Benefícios para um utilizador básico:
 
 ✅ **Facilidade de utilização**: Interface intuitiva para gerir utilizadores e aplicações.

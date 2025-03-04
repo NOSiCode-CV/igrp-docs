@@ -47,7 +47,7 @@ Antes de [criar um issue](https://help.github.com/en/github/managing-your-work-o
 
 Consulte a nossa [Política de Segurança](../Docs%20Referência/SECURITY.md). **Não** crie um problema público para vulnerabilidades de segurança.
 
-### 🪲 Relatar Erros e outros problemas
+#### 🪲 Relatar Erros e outros problemas
 
 Uma excelente forma de contribuir para o projeto é enviar um relato detalhado sempre que encontrar um problema. Apreciamos muito um relatório de erro bem escrito e completo.
 
@@ -65,11 +65,11 @@ Pedidos de funcionalidade são bem-vindos! Contudo, não podemos garantir que se
 - **Preencha completamente o modelo de pedido de funcionalidade.**
 - Seja claro sobre o objetivo e como a funcionalidade se relaciona com as existentes.
 
-### 🔁 Submeter Pull Requests
+### 🔁 Submeter _Pull Requests_
 
-Adoramos pull requests! Antes de criar um [pull request](../Docs%20Referência/PULL_REQUEST_TEMPLATE_.md) para alterações não triviais, é recomendável discutir primeiro discutir as mudanças, ou discutir sua abordagem pretendida para resolver o problema nos comentários de um issue existente.
+Adoramos _pull requests_! Antes de criar um [_pull request_](../Docs%20Referência/PULL_REQUEST_TEMPLATE_.md) para alterações não triviais, é recomendável discutir primeiro discutir as mudanças, ou discutir sua abordagem pretendida para resolver o problema nos comentários de um _issue_ existente.
 
-Para a maioria das contribuições, depois que sua primeira solicitação de pull for aceita e mesclada, você será convidado para o projeto e receberá acesso de push . 🎉
+Para a maioria das contribuições, depois que sua primeira solicitação de _pull_ for aceita e mesclada, você será convidado para o projeto e receberá acesso de _push_.🎉
 
 _Observação: todas as contribuições serão licenciadas sob a licença do projeto._
 
@@ -133,7 +133,11 @@ See also: #456, #789*
  
 - **Revise o código, não o autor.** Procure e sugira melhorias sem menosprezar ou insultar o autor. Forneça _feedback_ acionável e explique seu raciocínio.
 - **Separe-se do seu código.** Quando seu código for criticado, questionado ou criticado construtivamente, lembre-se de que você não é seu código. Não leve a revisão de código para o lado pessoal.
-- **Seja sempre profissional e respeitoso.** Ninguém escreve bugs de propósito. Faça o seu melhor e aprenda com seus erros.
+- **Seja sempre profissional e respeitoso.** Ninguém escreve _bugs_ de propósito. Faça o seu melhor e aprenda com seus erros.
 - **Siga estas diretrizes para uma experiência produtiva e colaborativa.**
+
+### 🎖️ Crédito
+
+Escrito pelo Francisco Lopes Horta.
 
 

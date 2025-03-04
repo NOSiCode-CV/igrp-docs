@@ -2,11 +2,8 @@
 
 ### O Nosso Compromisso
 
-Com o objetivo de promover um ambiente aberto e acolhedor, nós, como
-contribuidores e mantenedores, comprometemo-nos a tornar a participação no nosso projeto e
-na nossa comunidade uma experiência livre de assédio para todos, independentemente da idade, tamanho corporal,
-deficiência, etnia, características sexuais, identidade e expressão de género,
-nível de experiência, educação, estatuto socioeconómico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
+Com o objetivo de promover um ambiente aberto e acolhedor, nós, como contribuidores e mantenedores, comprometemo-nos a tornar a participação no nosso projeto e
+na nossa comunidade uma experiência livre de assédio para todos, independentemente da idade, tamanho corporal, deficiência, etnia, características sexuais, identidade e expressão de género, nível de experiência, educação, estatuto socioeconómico, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
 
 ### Os Nossos Padrões
 
@@ -21,7 +18,7 @@ Exemplos de comportamentos que contribuem para um ambiente positivo incluem:
 Exemplos de comportamentos inaceitáveis incluem:
 
 * O uso de linguagem ou imagens sexualizadas e atenção sexual ou avanços indesejados
-* Trolling, insultos/comentários depreciativos e ataques pessoais ou políticos
+* _Trolling_, insultos/comentários depreciativos e ataques pessoais ou políticos
 * Assédio público ou privado
 * Publicação de informações privadas de terceiros, como endereços físicos ou eletrónicos, sem permissão explícita
 * Outra conduta que possa ser razoavelmente considerada inapropriada num ambiente profissional
@@ -34,7 +31,7 @@ Os mantenedores do projeto têm o direito e a responsabilidade de remover, edita
 
 ### Âmbito
 
-Este Código de Conduta aplica-se tanto dentro dos espaços do projeto como em espaços públicos quando um indivíduo estiver a representar o projeto ou a sua comunidade. Exemplos de representação de um projeto ou comunidade incluem a utilização de um endereço de e-mail oficial do projeto, a publicação em redes sociais oficiais ou a atuação como representante nomeado num evento online ou offline. A representação de um projeto pode ser definida e esclarecida pelos mantenedores do projeto.
+Este Código de Conduta aplica-se tanto dentro dos espaços do projeto como em espaços públicos quando um indivíduo estiver a representar o projeto ou a sua comunidade. Exemplos de representação de um projeto ou comunidade incluem a utilização de um endereço de e-mail oficial do projeto, a publicação em redes sociais oficiais ou a atuação como representante nomeado num evento _online_ ou _offline_. A representação de um projeto pode ser definida e esclarecida pelos mantenedores do projeto.
 
 ### Execução
 
