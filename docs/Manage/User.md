@@ -6,7 +6,7 @@ sidebar_position: 2
 
 A Gestão de Utilizadores é uma funcionalidade essencial dentro do IGRP, que permite aos administradores controlar e organizar todos os utilizadores de uma aplicação. Esta seção possibilita visualizar, filtar, excluir e convidar novos utilizadores, assegurando uma gestão eficiente e seguro dos acessos e permissões dentro do departamento.
 
-![alt text](img/image-11.png)
+![Users](img/users.png)
 
 ### Filtar Utilizadores
 
@@ -14,14 +14,14 @@ Para filtrar utilizadores, utilize os campos em "u1". Este é um filtro combinad
 
 Caso deseje repor os filtros, o utilizador deve clicar no botão **"Clear Filters"**, restaurando a lista completa de utilizadores.
 
-![alt text](img/image-12.png)
+![Filter Users](img/filterUsers.png)
 
 ### Convidar Utilizadores
 
 Para convidar um novo utilizador, clique em "u2". Isso abrirá um _modal_ com vários campos para preenchimento, onde o utilizador poderá inserir as informações necessárias para prosseguir com o convite.
 
 <div style={{ textAlign: 'center' }}>
-  ![alt text](img/image-13.png)
+  ![Invite User](img/inviteUser.png)
 </div>
 
 No _modal_ de convite, deve preencher os seguintes campos:

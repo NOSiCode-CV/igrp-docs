@@ -20,11 +20,11 @@ Para criar os menus de uma aplicação, é necessário aceder à sua seção de 
 
 Para isso, o utilizador deve clicar no ícone **"View"** (representado por um olho) na aplicação correspondente, conforme ilustrado na imagem abaixo, que permitirá gerir e configurar os menus da aplicação de forma personalizada.
 
-![alt text](img/image-15.png)
+![Menu](img/menu.png)
 
 Em seguida, devem clicar no botão **"New Menu"**, que abrirá uma janela _pop-up_ para a criação de menus.
 
-![alt text](img/image-16.png)
+![New Menu](img/newMenu.png)
 
 ### 1.1 Criar Grupo
 
@@ -39,7 +39,7 @@ Para criar um grupo de menus:
 Essa estrutura de pastas e grupos melhora a usabilidade, permitindo que os menus sejam facilmente acessados conforme a necessidade do utilizador.
 
 <div style={{ textAlign: 'center' }}>
-  ![alt text](img/image-17.png)
+  ![Group](img/group.png)
 </div>
 
 ### 1.2 Menu Interno (Associado a uma Página)
@@ -53,7 +53,7 @@ Para criar um menu que forneça acesso direto a uma página específica da aplic
 Este tipo de menu é especialmente útil quando se deseja facilitar o acesso a várias páginas de forma rápida e organizada, permitindo ao utilizador escolher a página que deseja acessar de maneira intuitiva.
 
 <div style={{ textAlign: 'center' }}>
-  ![alt text](img/image-18.png)
+  ![Menu para Página](img/menuPagina.png)
 </div>
 
 ### 1.3 Menu Externo (Associação a um _Link_)
@@ -67,7 +67,7 @@ Para criar um menu que forneça acesso a uma página específica da aplicação,
 Este tipo de menu é útil quando o acesso não se restringe a páginas internas da aplicação e o utilizador precisa direcionar para um URL externo ou para uma página específica que não está na lista de páginas pré determinadas.
 
 <div style={{ textAlign: 'center' }}>
-  ![alt text](img/image-19.png)
+  ![Menu Externo](img/menuExterno.png)
 </div>
 
 ## 2. Visualização do Menu
@@ -78,10 +78,10 @@ Além disso, o sistema oferece filtros e opções de pesquisa para facilitar a l
 
 Caso seja necessário mover um menu de uma pasta para outra, o utilizador deverá editar o menu e selecionar a nova pasta de destino. Isso garante flexibilidade e agilidade na organização da estrutura de menus.
 
-![alt text](img/image-20.png)
+![View Menu](img/viewMenu.png)
 
 Outra forma de visualizar os menus e navegar pelas suas páginas é acedendo diretamente à aplicação através da página inicial do **IGRP IU**.
 
 Nessa visualização, os menus são listados na barra lateral, proporcionando uma navegação mais intuitiva e rápida. A estrutura organizada na barra lateral permite que os utilizadores acessem facilmente as diferentes páginas e funcionalidades da aplicação, como ilustrado na imagem abaixo.
 
-![alt text](img/image-21.png)
+![View Menu na Barra Lateral](img/menuBarraLateral.png)

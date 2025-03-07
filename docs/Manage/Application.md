@@ -10,7 +10,7 @@ Para gerir as aplicações criadas, aceda ao menu lateral esquerdo e selecione a
 
 No painel direito, será apresentada uma lista de todas as aplicações criadas, proporcionando uma visão centralizada e facilitando a sua gestão.
 
-![alt text](img/image.png)
+![App Management](img/appManagement.png)
 
 ## 1. Criar uma Aplicação
 
@@ -20,7 +20,7 @@ Para criar uma nova aplicação, aceda à secção de aplicações e clique no b
 
 Uma janela _pop-up_ será exibida, solicitando o preenchimento das informações necessárias. Caso opte por criar uma aplicação externa, será necessário fornecer o URL correspondente.
 
-![alt text](img/image-1.png)
+![New App](img/newApp.png)
 
 ### 1.1 Visualizar e Filtar Aplicações
 
@@ -28,6 +28,6 @@ Nesta seção, todas as aplicações criadas são apresentadas em uma tabela, pr
 
 A tabela inclui opções de filtro para localizar rapidamente uma aplicação específica. Os filtros permitem buscar por estado (**Ativo** ou **Inativo**), **nome**, **URL** ou **código**, além da possibilidade de combinar múltiplos critérios para refinar os resultados.
 
-![alt text](img/image-2.png)
+![Filter App](img/filterApp.png)
 
 

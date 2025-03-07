@@ -8,7 +8,7 @@ Esta seção permite que cada utilizador aceda e faça gestão das suas informa�
 
 O perfil pode ser acedido através do menu suspenso na barra de navegação, conforme explicado anteriormente neste guia.
 
-![alt text](img/image-14.png)
+![Profile](img/profile.png)
 
 ### Atualizar Perfil
 
