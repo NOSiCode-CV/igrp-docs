@@ -2,6 +2,6 @@
 sidebar_position: 1
 ---
 
-# Provedor de Emial
+# Provedor de Email
 
 Conteúdo em construção...
