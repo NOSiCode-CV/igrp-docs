@@ -1,3 +1,8 @@
+
+---
+sidebar_position: 1
+---
+
 # Política de Segurança
 
 Se descobrir uma questão de segurança, informe-nos imediatamente!
