@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentação',
         },
 
         {
@@ -95,8 +95,8 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'docs.igrp.cv',
-              href: 'https://docs.igrp.cv/IGRP/app/webapps?r=tutorial/Listar_documentos/index&dad=tutorial&target=_blank&isPublic=1&lang=pt_PT',
+              label: 'igrp.cv',
+              href: 'https://igrp.cv/',
             },
           ],
         },
@@ -105,7 +105,7 @@ const config: Config = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.com/channels/1247935914403958905/1334510445326762077',
             },
           ],
         },
