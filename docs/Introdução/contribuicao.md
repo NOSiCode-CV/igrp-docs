@@ -29,7 +29,7 @@ Se é a primeira vez que contribui, temos guias para o ajudar a contribuir, repo
 
 ### 📖 Código de Conduta
 
-Por favor, reveja o nosso [CODIGO DE CONDUTA](../Docs%20Referência/CODE_OF_CONDUCT_.md). Está em vigor em todos os momentos. Esperamos que seja respeitado por todos os que contribuem para este projeto.
+Por favor, reveja o nosso [CODIGO DE CONDUTA](/Security/SECURITY.md). Está em vigor em todos os momentos. Esperamos que seja respeitado por todos os que contribuem para este projeto.
 
 ### 💡 Colocar Dúvidas
 
@@ -45,7 +45,7 @@ Antes de [criar um issue](https://help.github.com/en/github/managing-your-work-o
 
 #### 🔒 Reportar problemas de segurança
 
-Consulte a nossa [Política de Segurança](../Docs%20Referência/SECURITY.md). **Não** crie um problema público para vulnerabilidades de segurança.
+Consulte a nossa [Política de Segurança](/Security/SECURITY.md). **Não** crie um problema público para vulnerabilidades de segurança.
 
 #### 🪲 Relatar Erros e outros problemas
 
