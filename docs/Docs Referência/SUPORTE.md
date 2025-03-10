@@ -12,7 +12,7 @@ Por favor, procure suporte das seguintes formas:
 
 2. 💡 **Pesquise respostas e faça perguntas no [Stack Overflow](https://stackoverflow.com).** Este é o local mais apropriado para depurar problemas específicos à sua utilização do projeto ou para aprender como utilizá-lo de uma forma específica.
 
-3. 📝 Como **último recurso**, pode abrir uma issue no GitHub para pedir ajuda. No entanto, explique claramente o que está a tentar fazer e liste as tentativas que já fez para resolver o problema. Forneça exemplos de código, mas **não** anexe o seu projeto inteiro para que alguém depure por si. Revise as nossas [diretrizes de contribuição](../CONTRIBUTING.md).
+3. 📝 Como **último recurso**, pode abrir uma issue no GitHub para pedir ajuda. No entanto, explique claramente o que está a tentar fazer e liste as tentativas que já fez para resolver o problema. Forneça exemplos de código, mas **não** anexe o seu projeto inteiro para que alguém depure por si. Revise as nossas [diretrizes de contribuição](Introdução/contribuicao.md).
 
 ### O que NÃO fazer
 
