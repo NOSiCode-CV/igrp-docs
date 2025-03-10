@@ -6,16 +6,16 @@ sidebar_position: 3
 
 Apresentação da evolução da plataforma, desde as versões iniciais até o IGRP 3.0, destacando os principais marcos, melhorias tecnológicas e avanços em termos de funcionalidades e desempenho.
 
-### Lançamento Inicial
+### 🛫 Lançamento Inicial
 O IGRP foi inicialmente desenvolvido como uma plataforma robusta para a gestão de aplicações de governação eletrónica em Cabo Verde.
 
-### _Open Source_ 
+### 🔓 _Open Source_ 
 Recentemente, o IGRP foi transformado em uma plataforma open source, permitindo que empresas públicas e privadas, tanto nacionais quanto internacionais, utilizem a plataforma para desenvolver soluções digitais.
 
-### Arquitetura baseada em Micro Serviços 
+### 🖧 Arquitetura baseada em Micro Serviços 
 o IGRP possuía inicialmente uma arquitetura monolítica, o que limitava sua flexibilidade e escalabilidade. A nova versão do IGRP agora possui uma arquitetura baseada em micro serviços, tornando-a numa plataforma _full stack_, interoperável e escalável.
 
-### Novo _Brand_
+### 📣 Novo _Brand_
 Durante o <a href="https://nosi.cv/pt/web/guest/w/nosi-25-anos-nosi-apresenta-o-novo-igrp-framework-open-source-e-gratuito-para-desenvolvimento-de-solu%C3%A7%C3%B5es">evento de comemoração dos 25 anos da NOSi</a>, foi apresentada a mais recente versão do IGRP, destacando as melhorias e a nova marca da plataforma.
 
 
