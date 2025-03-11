@@ -78,7 +78,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Documentação',
+          label: 'Docs IGRP 3.0',
         },
 
         {
@@ -92,11 +92,11 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Portal',
+          title: 'Docs IGRP Legacy',
           items: [
             {
-              label: 'igrp.cv',
-              href: 'https://igrp.cv/',
+              label: 'IGRP 2.0',
+              href: 'https://docs.igrp.cv/',
             },
           ],
         },
