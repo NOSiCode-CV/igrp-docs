@@ -92,7 +92,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Portal',
           items: [
             {
               label: 'igrp.cv',
