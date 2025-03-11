@@ -2,6 +2,6 @@
 sidebar_position: 3
 ---
 
-# Autenticação e Autorização 
+# Azure Active Directory
 
 Conteúdo em construção...

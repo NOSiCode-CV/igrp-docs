@@ -1,7 +1,7 @@
 # Primeiros Passos
 
 ## Login
-O processo de login é realizado através do Keycloak. O utilizador deve clicar no botão **"Sign in with Keycloak"** e inserir as credenciais (nome de utilizador e senha) fornecidas no e-mail de convite. Caso o utilizador não tenha essas credenciais, ele deve entrar em contato com um administrador do sistema.
+O processo de login é realizado através do Keycloak. O utilizador deve clicar no botão **"Sign in with Keycloak"** e inserir as credenciais (nome de utilizador e senha) de configuração. 
 
 ![Imagem do processo de login](img/Login-quickstart.png)
 ![Imagem do login no Keycloak](img/Keyccloak-quickstart.png)
