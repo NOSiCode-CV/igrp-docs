@@ -7,13 +7,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'IGRP',
   tagline: 'Inovação e Transformação Digital 𝑳𝒐𝒘 𝑪𝒐𝒅𝒆 para 𝑵𝒐 𝑪𝒐𝒅𝒆!',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/igrp-card.webp',
 
   // Set the production url of your site here
   url: 'https://igrp.cv',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/documentation/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
