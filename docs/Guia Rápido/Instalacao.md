@@ -4,9 +4,10 @@ sidebar_position: 1
 
 # Instalação
 
-## Configuração do Ambiente Local
+Este guia fornece instruções rápidas para configurar e executar o ambiente de testes do **IGRP 3.0** usando **Docker Compose**. O ambiente inclui **Serviço de Gestão de Utilizadores**, **Serviço de Gestão de Aplicações**, **Serviço de Autenticação e Autorização** e **Serviço de Armazenamento de Objectos**.
 
-### Modificar o Arquivo Hosts
+
+## Configuração do ficheiro Hosts
 
 Adicione as seguintes entradas ao arquivo hosts do seu sistema:
 
@@ -25,17 +26,29 @@ Adicione as seguintes entradas ao arquivo hosts do seu sistema:
 ## Instalar Pré-requisitos
 
 - **Windows:** Instale o WSL para utilizar comandos Linux no Windows.
-- Instale o Docker e o Docker Compose na sua máquina.
+- **Software Necessário:** Instale o **Docker**  com o plugin **Docker Compose** na sua máquina.
+- **Memória**: 8GB RAM
+- **Processador**: 12th Gen Intel Core i5
+
+
+## Repositório
+**Clonar o repositório do projeto:**
+```bash
+	https://github.com/NOSiCode-CV/igrp-platform-docker-compose
+```
 
 ## Iniciar o Ambiente
 
 Execute o seguinte comando para iniciar os contêineres:
-
+> **Nota:** Certifique-se de que o Docker e o plugin Compose estão instalados antes de executar os comandos.
 ```bash
 docker-compose up --force-recreate
 ```
+ou 
 
-**Nota:** No Windows, recomenda-se utilizar o terminal WSL.
+```bash
+docker compose up --force-recreate
+```
 
 ## Verificar Serviços em Execução
 
@@ -44,10 +57,9 @@ Verifique se todos os serviços (Keycloak, APIs, PostgreSQL, MinIO) estão em ex
 ```bash
 docker ps
 ```
-
-## Acessar ao Provedor de Identidade/Acesso e Serviços
-
-- **Autenticação e Autorização:** [http://keycloak:8080](http://keycloak:8080)
-- **Serviço de Gestão de Utilizador:** [http://user-management-api:8081](http://user-management-api:8081)
-- **Serviço de Gestão de Aplicação:** [http://app-manager-api:8082](http://app-manager-api:8082)
-- **IGRP UI:** [http://igrp-ui:3000](http://igrp-ui:3000)
+## Acesso aos Serviços
+- **Autenticação e Autorização**: `http://keycloak:8080`
+- **Armazenamento de Objectos**: `http://minio:9000`
+- **Serviço de Gestão de Utilizadores**: `http://user-management-api:8081`
+- **Serviço de Gestão de Aplicações**: `http://app-manager-api:8082`
+- **IGRP UI**: `http://igrp-ui:3000`
