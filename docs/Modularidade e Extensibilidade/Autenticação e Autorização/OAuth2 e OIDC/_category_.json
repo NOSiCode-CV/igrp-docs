@@ -1,8 +1,8 @@
 {
-    "label": "Studio Engines",
+    "label": "OAuth2 e OpenID Connect",
     "position": 1,
     "link": {
       "type": "generated-index",
-      "description": ""
+      "description": " "
     }
   }
