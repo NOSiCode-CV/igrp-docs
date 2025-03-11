@@ -1,11 +1,10 @@
-
 ---
 sidebar_position: 1
 ---
 
 # Política de Segurança
 
-Se descobrir uma questão de segurança, informe-nos imediatamente!
+> ⚠️ **Se descobrir uma questão de segurança, informe-nos imediatamente!**
 
 ### Reportar uma Vulnerabilidade
 
