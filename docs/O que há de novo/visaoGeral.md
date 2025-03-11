@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Visão Geral
+# Novidades
 
-O **IGRP** é uma plataforma web única e robusta que permite gerir aplicações de governação eletrónica em todas as suas etapas: concessão, 
+O **IGRP 3.0** é uma plataforma web única e robusta que permite gerir aplicações de governação digital em todas as suas etapas: concessão, 
 desenvolvimento, disponibilização, monitoramento e auditoria.
 Permite o desenvolvimento _low code to no code_ de aplicações web, num studio de desenvolvimento com forte capacidade de geração automática de códigos do IGRP Studio.
 Ainda, oferece às empresas oportunidades únicas de poderem desenvolver números ilimitados de aplicativos com rapidez, qualidade e segurança.
@@ -13,7 +13,7 @@ Ainda, oferece às empresas oportunidades únicas de poderem desenvolver número
 
 #### 🖧 Microserviços
 
--   O IGRP foi migrado para uma arquitetura de microserviços utilizando _Spring Boot_.
+-   O IGRP 3.0 foi migrado para uma arquitetura de microserviços utilizando _Spring Boot_.
 -   Os serviços são independentes e podem ser escalados separadamente.
 -   Inclui módulos como Gestor de Utilizadores (autenticação via _Keycloak_) e Gestor de Aplicações (criação e gestão de apps no IGRP).
 
@@ -30,7 +30,7 @@ Ainda, oferece às empresas oportunidades únicas de poderem desenvolver número
 
 #### 🔗 Infraestrutura
 
--   O IGRP roda em Kubernetes, garantindo segurança, escalabilidade e alta disponibilidade.
+-   O IGRP 3.0 roda em Kubernetes, garantindo segurança, escalabilidade e alta disponibilidade.
 -   Possui monitorização com **Grafana** e **OpenTelemetry** e mecanismos de segurança como _Trivy_ e _Keycloak_.
 
 #### 🤖 Automação
