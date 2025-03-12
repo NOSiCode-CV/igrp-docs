@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://igrp.cv',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   
 
   // GitHub pages deployment config.
@@ -73,6 +73,7 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
+        href: 'https://igrp.cv',
       },
       items: [
         {
