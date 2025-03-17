@@ -98,7 +98,7 @@ const config: Config = {
           items: [
             {
               label: 'IGRP 2.0',
-              href: 'https://docs.igrp.cv/',
+              href: 'https://docs.igrp.cv/v2',
             },
           ],
         },
