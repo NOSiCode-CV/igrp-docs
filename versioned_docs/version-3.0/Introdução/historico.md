@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Histórico
 
-Apresentação da evolução da plataforma, desde as versões iniciais até o IGRP 3.0, destacando os principais marcos, melhorias tecnológicas e avanços em termos de funcionalidades e desempenho.
+Apresentação da evolução da plataforma, desde as versões iniciais até o IGRP Horizon, destacando os principais marcos, melhorias tecnológicas e avanços em termos de funcionalidades e desempenho.
 
 ### 🛫 Lançamento Inicial
 O IGRP foi inicialmente desenvolvido como uma plataforma robusta para a gestão de aplicações de governação eletrónica em Cabo Verde.

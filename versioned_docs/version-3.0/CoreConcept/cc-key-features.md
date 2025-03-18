@@ -4,7 +4,7 @@ sidebar_position: 2
 # Características chaves
 
 
-## IGRP 3.0
+## IGRP Horizon
 
 - **Arquitetura Modular baseada em Microserviços**  
   Facilita a manutenção, escalabilidade e implementação de novas funcionalidades de maneira independente.

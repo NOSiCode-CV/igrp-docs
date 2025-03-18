@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Terminologias
 
-- **IGRP 3.0** - A versão mais recente da plataforma de desenvolvimento e gestão de aplicações da NOSI na versão open-source.
+- **IGRP Horizon** - A versão mais recente da plataforma de desenvolvimento e gestão de aplicações da NOSI na versão open-source.
 - **Arquitetura de Microserviços** - anova aquitetura apresenta uma estrutura modular de aplicação onde cada componente é independente e interage com outros serviços.
 - **Escalabilidade** - oferece maior capacidade de um sistema de lidar com o aumento de carga, ampliando sua capacidade sem perda de desempenho.
 - **Automação** - Processos que são realizados de maneira automática, sem intervenção manual, como deploys e integrações.

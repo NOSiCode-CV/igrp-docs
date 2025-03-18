@@ -80,7 +80,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs IGRP 3.0',
+          label: 'Docs IGRP',
         },
 
         {

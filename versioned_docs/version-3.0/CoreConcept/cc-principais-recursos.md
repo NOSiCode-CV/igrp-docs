@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Princípios do IGRP 3.0
+# Princípios do IGRP Horizon
 
 - **Escalabilidade e Flexibilidade**  
   A plataforma foi construída para se adaptar às necessidades crescentes dos usuários, permitindo fácil escalabilidade para atender a altos volumes de dados e tráfego.
@@ -17,7 +17,7 @@ sidebar_position: 3
   A proteção de dados e a segurança do sistema são incorporadas desde o início, com mecanismos de controle de acesso e criptografia de dados, garantindo que as informações estejam sempre seguras.
 
 - **Experiência do Usuário como Prioridade**  
-  O IGRP 3.0 é projetado para proporcionar uma experiência de desenvolvimento e uso intuitiva, com interfaces e ferramentas modernas que priorizam a usabilidade e a produtividade.
+  O IGRP Horizon é projetado para proporcionar uma experiência de desenvolvimento e uso intuitiva, com interfaces e ferramentas modernas que priorizam a usabilidade e a produtividade.
 
 - **Inovação Contínua e Integração com Tecnologias Emergentes**  
   A plataforma é construída para se manter atualizada com as últimas inovações tecnológicas, permitindo fácil integração com ferramentas e frameworks emergentes.
@@ -26,4 +26,4 @@ sidebar_position: 3
   Adota princípios de desenvolvimento ágil para garantir ciclos rápidos de desenvolvimento, entregas contínuas e colaboração efetiva entre as equipes.
 
 - **Simplicidade no Desenvolvimento**  
-  Ao oferecer suporte a abordagens low code/no code, o IGRP 3.0 permite que tanto desenvolvedores experientes quanto não técnicos criem e personalizem soluções rapidamente, sem necessidade de codificação complexa.
+  Ao oferecer suporte a abordagens low code/no code, o IGRP Horizon permite que tanto desenvolvedores experientes quanto não técnicos criem e personalizem soluções rapidamente, sem necessidade de codificação complexa.

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Roadmap
 
-O IGRP 3.0 busca modernizar a plataforma IGRP com uma abordagem baseada em micro serviços, escalabilidade, segurança e automação. A implementação será feita de forma incremental, dividida em etapas _"waves"_, com entregas planeadas e abertas à comunidade.
+O IGRP Horizon busca modernizar a plataforma IGRP com uma abordagem baseada em micro serviços, escalabilidade, segurança e automação. A implementação será feita de forma incremental, dividida em etapas _"waves"_, com entregas planeadas e abertas à comunidade.
 
 ### 🎯 Principais Objetivos
 

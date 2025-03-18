@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Instalação
 
-Este guia fornece instruções rápidas para configurar e executar o ambiente de testes do **IGRP 3.0** usando **Docker Compose**. O ambiente inclui **Serviço de Gestão de Utilizadores**, **Serviço de Gestão de Aplicações**, **Serviço de Autenticação e Autorização** e **Serviço de Armazenamento de Objectos**.
+Este guia fornece instruções rápidas para configurar e executar o ambiente de testes do **IGRP Horizon** usando **Docker Compose**. O ambiente inclui **Serviço de Gestão de Utilizadores**, **Serviço de Gestão de Aplicações**, **Serviço de Autenticação e Autorização** e **Serviço de Armazenamento de Objectos**.
 
 
 ## Configuração do ficheiro Hosts
