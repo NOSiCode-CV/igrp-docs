@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://igrp.cv',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs/',
+  baseUrl: '/doc/',
   
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'nosi-code', // Usually your GitHub org/user name.
   projectName: 'igrp', // Usually your repo name.
 
   onBrokenLinks: 'throw',
