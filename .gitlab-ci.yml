@@ -32,4 +32,4 @@ deploy:
         -X POST \
         -H 'Accept: application/json' \
         -H 'Content-Type: application/json' \
-        'https://manager.nosi.cv/v3/project/c-kthdc:p-tn7qs/workloads/deployment:portal-igrp:docs_prod?action=redeploy'
+        'https://manager.nosi.cv/v3/project/c-kthdc:p-tn7qs/workloads/deployment:portal-igrp:docs?action=redeploy'
