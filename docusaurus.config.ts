@@ -13,7 +13,7 @@ const config: Config = {
   url: 'https://igrp.cv',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
   
 
   // GitHub pages deployment config.
@@ -37,6 +37,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+           routeBasePath: '/', // Serve from root of baseUrl
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
