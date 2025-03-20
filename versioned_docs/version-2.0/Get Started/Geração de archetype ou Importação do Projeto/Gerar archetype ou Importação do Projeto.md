@@ -11,7 +11,11 @@ UTILIZAR COMANDOS NO README DE https://github.com/NOSiCode-CV/IGRP-Framework
 
 **OU** para download do artifact maven fazer **IMPORT WIZARD PROJECT DE ECLIPSE ou INTELLIJ**
 
-![alt text](img/image.png)
+![Projeto Maven](img/mavenProject.png)
+
+> PARA ARRANCAR: mvn package tomee:run
+
+
 
 
 
