@@ -9,7 +9,6 @@ sidebar_position: 1
 
 **Passo 2**: Ao clicar no botão direito, escolher a opção _properties_ e clicar em **Java Build Path**.
 ![Java Build Path](img/JavaBuildPath.png)
-
 **Passo 3**: Clicar no tabulador **Source** e remover as duas pastas do (_missing_) que podem aparecer no projeto. Estas pastas são ficheiros que estão adicionados no Servidor do projeto e que não pertencem ao nosso projeto importado.
 ![Remover missing do Projeto](img/removerMissing.png)
 

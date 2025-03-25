@@ -12,8 +12,7 @@ A Plataforma igrpweb, desenvolvida pelo Núcleo Operacional para a Sociedade de 
 
 ### 1. Arquitetura
 
-A arquitetura da igrpweb é concebida para ser leve e robusta, permitindo a interoperabilidade entre aplicações nativas e de terceiros. 
-
+A arquitetura da igrpweb é concebida para ser leve e robusta, permitindo a interoperabilidade entre aplicações nativas e de terceiros. <br></br>
 Oferece o IGRP Studio, um ambiente dedicado que inclui geradores de interface, fluxos de processo e relatórios, facilitando o desenvolvimento e gestão de aplicações. Além disso, a sua capacidade de trabalhar com diversas bases de dados evidencia a sua flexibilidade arquitetural.
 
 ![Workflow, Acessos e Permissões](img/arquitetura.png)

@@ -6,8 +6,7 @@ sidebar_position: 2
 
 Após a adição Servidor Apache Tomcat, agora temos de configurá-lo.
 
-**Passo 1**: Fazemos duplo click sobre o servidor Tomcat instalado.
-
+**Passo 1**: Fazemos duplo click sobre o servidor Tomcat instalado.<br></br> 
 ![Servidor Tomcat](img/serverTomcat.png)
 
 **Passo 2**: Devemos incrementar os **Timeouts** do servidor de forma a que dê tempo para o servidor arrancar. Em vez de 45 e 15 coloca **120 e 60**. Fazer **Save**.
@@ -16,15 +15,12 @@ Após a adição Servidor Apache Tomcat, agora temos de configurá-lo.
 **Passo 3**: Agora, abir a opção "**_Open launch configuration_**".
 ![Open launch configuration](img/OpenLaunchConfig.png)
 
-**Passo 4**: Clicar no separador **_Common_**. 
-
+**Passo 4**: Clicar no separador **_Common_**. <br></br> 
 ![Common](img/common.png)
 
-**Passo 5**:  Alterar o Encoding do Apache para UTF-8 para evitar erros de caracteres especiais e clicar em **_Apply_** para aplicar as alterações, depois clicar em **OK**.
-
+**Passo 5**:  Alterar o Encoding do Apache para UTF-8 para evitar erros de caracteres especiais e clicar em **_Apply_** para aplicar as alterações, depois clicar em **OK**.<br></br> 
 ![Alterar Encoding](img/editeEncoding.png)
 
-**Passo 6**: Clicar em **Save**, para salvar as configurações feitas.
-
+**Passo 6**: Clicar em **Save**, para salvar as configurações feitas.<br></br> 
 ![Guardar todas as configurações](img/saveAllConfig.png)
 
