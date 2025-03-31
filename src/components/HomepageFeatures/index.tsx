@@ -4,29 +4,80 @@ export default function HomepageFeatures() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
-            <h3 className="text-3xl font-bold text-gray-900 dark:text-white">
-              Easy to Use
+            <img 
+              src="img/code.png" 
+              className="w-higth rounded-md mb-4" 
+            />
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+              Geração Automática de códido
             </h3>
             <p className="mt-4 text-gray-600 dark:text-gray-300">
-              Docusaurus was designed from the ground up to be easily installed and used.
+              Gere automaticamente código pronto para produção de várias estruturas, com práticas recomendadas e padrões integrados.
             </p>
           </div>
           
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <img 
+              src="img/database.png" 
+              className="w-higth rounded-md mb-2" 
+            />
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              Focus on What Matters
+              Suporte de várias base de dados
             </h3>
             <p className="mt-4 text-gray-600 dark:text-gray-300">
-              Let Docusaurus handle the documentation deployment, you can focus on writing.
+              Trabalhe com várias base de dados, incluindo Oracle, SQL Server, H2, PostegreSQL e MySQL.
+            </p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <img 
+              src="img/share.png" 
+              className="w-higth rounded-md mb-2" 
+            />
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+            Integração de Aplicações
+            </h3>
+            <p className="mt-4 text-gray-600 dark:text-gray-300">
+              Integre e interopere facilmente com aplicações nativas e de terceiros.
+            </p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <img 
+              src="img/padlock.png" 
+              className="w-higth rounded-md mb-2" 
+            />
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+              Controlo de dados
+            </h3>
+            <p className="mt-4 text-gray-600 dark:text-gray-300">
+              Mantenha o controlo total sobre os seus dados e aplicações com funcionalidades de segurança robusta.
+            </p>
+          </div>
+
+          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <img 
+              src="img/test-tube.png" 
+              className="w-higth rounded-md mb-2" 
+            />
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white">
+              Capacidade de Teste
+            </h3>
+            <p className="mt-4 text-gray-600 dark:text-gray-300">
+              Ferramentas de teste abrangentes para garantir que as suas aplicações funcionam sem falhas.
             </p>
           </div>
           
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
+            <img 
+              src="img/code-fork.png" 
+              className="w-higth rounded-md mb-2" 
+            />
             <h3 className="text-xl font-bold text-gray-900 dark:text-white">
-              Powered by Tailwind
+              Código aberto
             </h3>
             <p className="mt-4 text-gray-600 dark:text-gray-300">
-              Extend and customize your layout and styles with Tailwind CSS utilities.
+              Licenciado sob Apache 2.0, permintindo personalização total para atender às suas necessidades específicas.
             </p>
           </div>
         </div>*/}
@@ -38,3 +89,4 @@ export default function HomepageFeatures() {
     </section>
   );
 }
+
