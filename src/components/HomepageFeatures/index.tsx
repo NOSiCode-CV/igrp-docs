@@ -2,7 +2,7 @@ export default function HomepageFeatures() {
   return (
     <section className="py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6">
             <img 
               src="img/code.png" 
@@ -80,7 +80,11 @@ export default function HomepageFeatures() {
               Licenciado sob Apache 2.0, permintindo personalização total para atender às suas necessidades específicas.
             </p>
           </div>
-        </div>
+        </div>*/}
+        <p className="text-[#1E5C8F] text-7xl !leading-[1.5] font-bold dark:text-[#1E5C8F] text-center">
+          Segurança, interoperabilidade e <br/> inovação contínua
+          </p>
+
       </div>
     </section>
   );

@@ -13,12 +13,12 @@ const config: Config = {
   url: 'https://igrp.cv',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
+  organizationName: 'nosi-code', // Usually your GitHub org/user name.
   projectName: 'igrp', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -37,6 +37,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+           routeBasePath: '/', // Serve from root of baseUrl
           sidebarPath: './sidebars.ts',
           includeCurrentVersion: false,
           // Please change this to your repo.
@@ -76,6 +77,7 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
+        href: 'https://igrp.cv',
       },
       items: [
         {
@@ -105,7 +107,7 @@ const config: Config = {
           items: [
             {
               label: 'IGRP 2.0',
-              href: 'https://docs.igrp.cv/',
+              href: 'https://docs.igrp.cv/v2',
             },
           ],
         },
