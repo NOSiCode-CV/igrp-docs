@@ -10,7 +10,7 @@ A ideia é permitir ter várias aplicações (do governo) dentro do mesmo espaç
 Para começar vamos para a página do _framework_ (imagem a seguir) e fazemos o _login_.
 ![Login igrpweb](img/login.png)
 
-**_Login_** - Autenticação de utilizadores no sistema. O utilizador pode ser identificado a partir de _ActiveDirectory_, tabela de utilizadores ou qualquer outro serviço de Federação de Identidade (Google,Facebook...).<br></br>
+**_Login_** - Autenticação de utilizadores no sistema. O utilizador pode ser identificado a partir de _ActiveDirectory_, tabela de utilizadores ou qualquer outro serviço de Federação de Identidade (Google, Facebook...).<br></br>
 Passos:<br></br>
 1 - Aceder a IGRP<br></br>
 Link: http://localhost:8080/IGRP/app/webapps?r=igrp/login/login <br></br>
@@ -32,7 +32,7 @@ Entrando no IGRP Studio temos acesso à página inicial do ambiente de desenvolv
 
 O IGRP Studio é a ferramenta de desenvolvimento de aplicações do igrpweb e está disponível na lista de aplicações do utilizador, quando faz _login_, se este tiver privilégios de desenvolvedor.<br></br>
 A sua página inicial é o _Home Page Builder_, que dá acesso à diversos recursos e ferramentas necessárias ao processo de desenvolvimento, cujo estudo pode ser feito a partir dos documentos que indicamos nos próximos capítulos deste Guia.<br></br>
-Após o utilizador efectuar o login no IGRP aparece o seguinte ecrã, onde são disponibilizados todas as aplicações que o utilizador actual tem acesso, podendo aceder a cada uma delas individualmente.
+Após o utilizador efectuar o _login_ no IGRP aparece o seguinte ecrã, onde são disponibilizados todas as aplicações que o utilizador actual tem acesso, podendo aceder a cada uma delas individualmente.
 - Minhas Aplicações - aplicações que o utilizador tem permissão para aceder.
 - Outras aplicações - aplicações do IGRP ás quais o utilizador não tem permissão para aceder.
 

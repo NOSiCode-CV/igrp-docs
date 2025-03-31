@@ -17,7 +17,7 @@ Para isso basta nos mesmo formulário selecionarmos a aplicação e o domínio d
 Para adicionar valores selecionamos o domínio criado (1ª imagem a seguir) [2] e automaticamente aparece um __FormList_ abaixo (2ª imagem a seguir), onde inserimos os valores pretendidos e salvamos com o botão **Save** (2ª imagem a seguir)[2].
 ![Editar Domínio](img/editeDomínio.png)
 ![Inserir dados de um Domínio](img/InsertDadosDomínio.png)
-A partir desse momento nosso domínio está pronto para uso. 
+A partir desse momento nosso domínio está pronto para utilização. 
 
 ### 2. Utilizando um domínio em campo
 

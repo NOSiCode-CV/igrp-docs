@@ -6,7 +6,7 @@ sidebar_position: 4
 
 ### 1. Exportação da Aplicação
 
-Após criação de uma aplicação no Igrpweb, é possível exportá-lo para um outro ambiente, este procedimento é, muitas vezes, feito para partilha de aplicações entre desenvolvedores ou para passagem de aplicações para diferentes ambientes, que é o âmbito que estamos a ver.<br></br>
+Após criação de uma aplicação no igrpweb, é possível exportá-lo para um outro ambiente, este procedimento é, muitas vezes, feito para partilha de aplicações entre desenvolvedores ou para passagem de aplicações para diferentes ambientes, que é o âmbito que estamos a ver.<br></br>
 A passagem de aplicações entre ambientes é necessária uma vez que permite assegurar que diferentes ambientes sejam utilizados para diferentes fins, tais como: desenvolvimento, teste, produção. E estando a aplicação em ambientes distintos permita assegurar e salvaguardar uma melhor performance da mesma em diferentes aspetos pretendido, quer a nível de capacidades de servidores, quer a nível de possibilidade de testes de carga, quer a nível de alterações e entre outros.
 
 #### 1.1 Procedimentos de exportação de uma aplicação

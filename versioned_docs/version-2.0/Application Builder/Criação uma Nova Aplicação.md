@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Criação uma Nova Aplicação
 
-Para criar uma nova aplicação clicamos sobre o botão **New Application** (imagem abiaxo), para acessarmos o formulário para o efeito. Alternativamente podemos criar aplicações a partir do _Application Builder_, acessível através do menu do lado esquerdo.<br></br>
+Para criar uma nova aplicação clicamos sobre o botão **New Application** (imagem abiaxo), para acessarmos o formulário para o efeito. Alternativamente podemos criar aplicações a partir do _Application Builder_, acessível através do menu do lado esquerdo.
+
 Qualquer alteração que queiramos realizar nas definições básicas de uma aplicação [definidas no formulário de criação da aplicação] é possível através da página _Application Builder_ a partir de onde podemos editar os dados da aplicação pelo botão **Editar**, criar conexões de BD pelo botão **Criar Coneção**, exportar aplicações [botão **Export**], importar [botão **Import**] e criar novas aplicações [botão **New**].
 ![Home Page Builder [criando aplicação]](img/homePageBuilder.png)
 
