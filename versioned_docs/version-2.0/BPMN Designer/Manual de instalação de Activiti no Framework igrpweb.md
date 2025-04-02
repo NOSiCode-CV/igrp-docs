@@ -32,11 +32,10 @@ O procedimento a seguir, mostra-nos como instalar o _activi framework_ e rodar d
 2.6 - Clicar no botão direito do rato e escolher a opção _clean_ para limpar o Servidor Tomcat;
 ![Clean Servidor Tomcat](img/cleanServerTomcat.png)
 
-2.7 - Esperar o processo de clean esta a decorrer.<br></br>
+2.7 - Esperar o processo de _clean_ esta a decorrer.<br></br>
 ![Esperar o processo de Clean Server terminar](img/processoCleanServer.png)
 
-3 - Configuração do projeto _Activiti-rest_ - Dentro do novo projeto _activi-rest_ que foi importado é preciso configurar a base de dados onde vai ser instalado o _activiti framework_.
-
+3 - Configuração do projeto _Activiti-rest_ - Dentro do novo projeto _activi-rest_ que foi importado é preciso configurar a base de dados onde vai ser instalado o _activiti framework_.<br></br>
 3.1 - Clicar em _activiti-rest -> Java Resources -> src_. Abrir o ficheiro _db_properties_ onde é preciso configurar a base de dados e adicionar o _password_. Esta _password_ é da base de dados onde posteriormente vamos criar a base de dados de nome _db_activiti_;
 ![Configurar projeto Activi-rest](img/configProjetoActRest.png)
 ![Add Library Server Runtime](img/addLibraryServerRuntime.png)
@@ -44,7 +43,6 @@ O procedimento a seguir, mostra-nos como instalar o _activi framework_ e rodar d
 3.2 - Antes de criar a base de dados vamos, configurar o _Java Buid Path_ do nosso projeto _activiti-rest_, clicando em cima do projeto, de seguida em _Properties_;
 3.3 - Clicar opção _Java Build Path_ e configurar as opções;<br></br>
 ![Java Build Path](img/javaBuildPath.png)
-
 3.4 - Na opção _Libraries_ clicar no _add library_, vamos adicionar o servidor do projeto;<br></br>
 3.5 - Depois de clicar no _next_, clicar no _Apache tomcat_ que é o servidor que temos disponível;
 ![Server Library](img/serverLibrary.png)
