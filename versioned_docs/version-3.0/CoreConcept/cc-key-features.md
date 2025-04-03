@@ -19,7 +19,7 @@ sidebar_position: 2
   Melhora a eficiência operacional ao automatizar processos como deploys, atualizações e integrações, reduzindo a intervenção manual.
 
 - **Escalabilidade e Flexibilidade**  
-  A plataforma é projetada para lidar com a expansão do sistema sem comprometer a performance, atendendo a altas demandas de usuários e dados.
+  A plataforma é projetada para lidar com a expansão do sistema sem comprometer a performance, atendendo a altas demandas de utilizadores e dados.
 
 - **Integração com Tecnologias Emergentes**  
   Facilita a integração com ferramentas e frameworks modernos, como Kubernetes, React, Next.js e Spring Boot, permitindo inovação contínua.
