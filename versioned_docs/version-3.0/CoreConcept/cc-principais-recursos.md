@@ -5,7 +5,7 @@ sidebar_position: 3
 # Princípios do IGRP Horizon
 
 - **Escalabilidade e Flexibilidade**  
-  A plataforma foi construída para se adaptar às necessidades crescentes dos usuários, permitindo fácil escalabilidade para atender a altos volumes de dados e tráfego.
+  A plataforma foi construída para se adaptar às necessidades crescentes dos utilizadores, permitindo fácil escalabilidade para atender a altos volumes de dados e tráfego.
 
 - **Modularidade e Independência**  
   Utilizando uma arquitetura baseada em microserviços, cada componente é independente, permitindo atualizações, manutenções e expansões sem impactos no sistema como um todo.
@@ -16,7 +16,7 @@ sidebar_position: 3
 - **Segurança como Pilar Central**  
   A proteção de dados e a segurança do sistema são incorporadas desde o início, com mecanismos de controle de acesso e criptografia de dados, garantindo que as informações estejam sempre seguras.
 
-- **Experiência do Usuário como Prioridade**  
+- **Experiência do utilizador como Prioridade**  
   O IGRP Horizon é projetado para proporcionar uma experiência de desenvolvimento e uso intuitiva, com interfaces e ferramentas modernas que priorizam a usabilidade e a produtividade.
 
 - **Inovação Contínua e Integração com Tecnologias Emergentes**  

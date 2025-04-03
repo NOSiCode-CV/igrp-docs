@@ -33,7 +33,7 @@ Essas entradas irão mapear os domínios para o endereço `127.0.0.1` (localhost
 
 ### Configuração do App Manager
 
-### Configuração de gerenciamento de usuários
+### Configuração de gerenciamento de utilizadores
 
 
 

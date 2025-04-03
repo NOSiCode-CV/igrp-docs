@@ -11,7 +11,7 @@ sidebar_position: 1
 - **Desenvolvimento Ágil** - Adota metodologia de desenvolvimento focada em entregas rápidas e ciclos iterativos.
 - **Infraestrutura em Cloud** - Uso de servidores e serviços hospedados na nuvem para suportar a execução de aplicações e armazenagem de dados.
 - **Kubernetes** - Plataforma de orquestração de containers que automatiza a implantação, escalabilidade e gerenciamento de aplicações em containers.
-- **React** - Biblioteca JavaScript para criação de interfaces de usuário interativas e dinâmicas.
+- **React** - Biblioteca JavaScript para criação de interfaces de utilizador interativas e dinâmicas.
 - **Next.js** - Framework de React focado em desenvolvimento de aplicações web com renderização do lado servidor e recursos como roteamento e geração de sites estáticos.
 - **Spring Boot** - Framework para desenvolvimento de aplicações Java, com foco em produtividade e configuração simplificada.
 - **Low Code / No Code** - Abordagens que permitem o desenvolvimento de aplicações com pouco ou nenhum código, geralmente com ferramentas visuais.
