@@ -3,6 +3,10 @@
     "position": 3,
     "link": {
       "type": "generated-index",
-      "description": " "
+      "description": "A plataforma IGRP Horizon 3.0 permite o envio de emails através de uma estrutura extensível de adapters. Tal como nos restantes componentes, a integração com diferentes provedores de email é feita através da definição de interfaces abstratas implementadas por adapters concretos.
+
+      Esta abordagem permite uma substituição transparente do provedor de email, adaptando-se facilmente a diferentes soluções (ex: SMTP, SendGrid, Amazon SES), sem alterar a lógica central da aplicação.
+      
+      Para integrar um novo serviço de email, basta implementar um adapter que respeite o contrato definido pela interface de envio de email existente."
     }
   }

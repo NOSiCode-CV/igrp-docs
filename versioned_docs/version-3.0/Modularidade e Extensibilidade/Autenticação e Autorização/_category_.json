@@ -3,6 +3,6 @@
     "position": 1,
     "link": {
       "type": "generated-index",
-      "description": "A plataforma IGRP Horizon 3.0 foi desenhada com uma abordagem modular para gestão de identidade, permitindo a integração com múltiplos provedores de IAM (ex: Keycloak, WSO2, Azure AD). A arquitetura baseia-se na utilização de adapters específicos que implementam uma interface comum (IAdapter), permitindo substituição transparente de fornecedores."
+      "description": "A plataforma IGRP Horizon 3.0 foi desenhada com uma abordagem modular para gestão de identidade, permitindo a integração com múltiplos provedores de IAM (ex: Keycloak, Autentika / WSO2 IAM, Azure AD). A arquitetura baseia-se na utilização de adapters específicos que implementam uma interface comum (IAdapter), permitindo substituição transparente de provedores."
     }
   }

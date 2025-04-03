@@ -3,6 +3,6 @@
     "position": 2,
     "link": {
       "type": "generated-index",
-      "description": " "
+      "description": "A plataforma IGRP Horizon 3.0 permite a integração com múltiplos provedores de armazenamento de objectos, através de uma arquitetura baseada em adapters, seguindo a mesma filosofia de modularidade aplicada aos restantes componentes. Cada adapter de armazenamento implementa uma interface comum, que define as operações fundamentais de gestão de ficheiros e diretórios, como upload, download, listagem e remoção de objetos.  Esta estrutura permite trocar facilmente de provedor (por exemplo, de *MinIO* para *AWS S3*) sem alterar a lógica principal da aplicação."
     }
   }

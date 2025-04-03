@@ -6,12 +6,13 @@ sidebar_position: 1
 
 A interação com o _Keycloak_ é realizada através de um adaptador denominado **KeycloakAdapter**. A classe **KeycloakAdapter** atua como uma ponte entre a aplicação e o _Keycloak_, permitindo uma gestão eficiente de utilizadores, funções, departamentos, aplicações e permissões. Esta classe implementa a interface **IAdapter** e utiliza a **Admin API** do _Keycloak_ para a interação.
 
-### 1. Keycloak OAuth2 Provider
-Atualmente, o _Keycloak_ é o fornecedor OAuth2 responsável pela gestão de acessos. O Gestor de utilizadores cria os recursos no _Keycloak_, refletindo os da base de dados IGRP, e atribui as permissões conforme solicitado. Assim, ao receber uma função, o utilizador ganha automaticamente acesso aos recursos correspondentes, garantindo um controlo de acesso centralizado, seguro e consistente.
+> ⚠️ As ações mais complexas devem ser feitas diretamente no painel do _Keycloak_ por um administrador.
 
-### 2. Keycloak Adapter
-#### 2.1 Objetivo
-O _Keycloak_ Adapter facilita a comunicação entre APIs e o servidor _Keycloak_, permitindo a gestão de permissões, papéis e estrutura organizacional. Ele simplifica operações básicas de gestão de utilizadores, mas ações mais complexas devem ser feitas diretamente no painel do _Keycloak_ por um administrador.
+
+## Keycloak OAuth2 Provider
+Atualmente, o _Keycloak_ é o provedor `OAuth2` responsável pela gestão de acessos. O Gestor de utilizadores cria os recursos no _Keycloak_, refletindo os da base de dados IGRP, e atribui as permissões conforme solicitado. Assim, ao receber uma função, o utilizador terá automaticamente acesso aos recursos correspondentes, garantindo um controlo de acesso centralizado, seguro e consistente.
+
+## Keycloak Adapter
 
 ### Interface
 A interface `IAdapter` define o contrato de integração entre a aplicação e qualquer provedor IAM. Todos os métodos essenciais de autenticação e autorização são centralizados nesta interface.
@@ -31,7 +32,7 @@ public interface IAdapter {
 }
 ```
 
->🔹 Esta interface deve ser implementada por qualquer novo adapter (ex: AutentikaAdapter, AzureADAdapter).
+>🔹 Esta interface deve ser implementada por qualquer novo adapter (ex: `AutentikaAdapter`, `AzureADAdapter`).
 
 A classe IGRPUserRepresentation assegura uma representação padronizada do utilizador, independentemente do sistema IAM:
 ```java
@@ -64,7 +65,7 @@ Para a integração com o Keycloak via Java API, é necessário adicionar as seg
 >⚠️ Assegura que a versão da dependência corresponde à usada no container (ex: `docker-compose` com imagem `keycloak/keycloak:25.0.4`).
 
 ### Configuração
-A configuração da ligação ao servidor Keycloak deve ser definida em ficheiros de ambiente (`.env`) e no application.properties.
+A configuração da ligação ao servidor Keycloak deve ser definida em ficheiros de ambiente (`.env`) e no `application.properties`.
 ```java
 KEYCLOAK_URL=https://keycloak.local
 KEYCLOAK_REALM=igrp
@@ -72,7 +73,7 @@ KEYCLOAK_CLIENT_ID=admin-cli
 KEYCLOAK_USERNAME=admin
 KEYCLOAK_PASSWORD=admin123
 ```
-Inicialização do cliente:
+**Inicialização do cliente**:
 ```java
 keycloak = KeycloakBuilder.builder()
     .serverUrl(KEYCLOAK_URL)
@@ -84,8 +85,7 @@ keycloak = KeycloakBuilder.builder()
     .build();
 ```
 ### Implementação
-`KeycloakAdapter.java`
-Esta é a classe principal de integração com o Keycloak, onde a interface `IAdapter` é implementada:
+`KeycloakAdapter.java` é a classe principal de integração com o Keycloak, onde a interface `IAdapter` é implementada:
 ```java
 public class KeycloakAdapter implements IAdapter {
   
@@ -101,11 +101,11 @@ public class KeycloakAdapter implements IAdapter {
     // Conversão para estrutura IGRP
   }
 }
+```
+
+`KeycloakClient.java` é a camada de acesso direto à API do Keycloak:
 
 ```java
-KeycloakClient.java
-Camada de acesso direto à API do Keycloak:
-
 public class KeycloakClient {
   
   public void connect() { ... }
@@ -121,7 +121,7 @@ public class KeycloakClient {
 }
 ```
 
-Exemplo prático: adicionar role a um utilizador:
+**Exemplo prático**: adicionar role a um utilizador:
 ```java
 client.connect();
 
