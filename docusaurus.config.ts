@@ -39,10 +39,12 @@ const config: Config = {
         docs: {
            routeBasePath: '/', // Serve from root of baseUrl
           sidebarPath: './sidebars.ts',
+          includeCurrentVersion: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // TODO
+          /*editUrl:
+            'https://git.nosi.cv/igrp-3_0/portal/portal-igrp-docusaurus/-/tree/main/versioned_docs/',*/
         },
         blog: {
           showReadingTime: true,
@@ -52,8 +54,9 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // TODO
+          /*editUrl:
+            'https://git.nosi.cv/igrp-3_0/portal/portal-igrp-docusaurus/-/tree/main/versioned_docs/',*/
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -74,14 +77,19 @@ const config: Config = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        href: 'https://igrp.cv',
+        //href: 'https://igrp.cv',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs IGRP 3.0',
+          label: 'Docs IGRP',
+        },
+
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
         },
 
         {
