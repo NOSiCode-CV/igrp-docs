@@ -3,6 +3,6 @@
   "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "5 minutes to learn the most important Docusaurus concepts."
+    "description": "Trata-se de uma plataforma versátil e compatível com múltiplas bases de dados relacionais, incluindo Oracle, SQL Server, H2, PostgreSQL e MySQL, permitindo aos desenvolvedores trabalhar de forma flexível com diferentes sistemas de gestão de bases de dados. Esta compatibilidade facilita a portabilidade, a abstração do acesso a dados e a adaptação a diversos ambientes de desenvolvimento e produção."
   }
 }

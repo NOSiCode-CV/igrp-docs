@@ -108,7 +108,7 @@ Mais detalhes para diferentes versões consulte: [Configuração de Hosts Locais
 
 ### Iniciar o Ambiente
 
-Execute o seguinte comando para iniciar os containers. No caso de usuários do **Windows**, é recomendado usar o terminal WSL:
+Execute o seguinte comando para iniciar os containers. No caso de utilizadores do **Windows**, é recomendado usar o terminal WSL:
 
  - Iniciar os containers com Docker Compose:
 
@@ -138,9 +138,9 @@ docker ps
 ### Acessar Keycloak e APIs
 
 - Acesse o **Keycloak** em [http://keycloak:8080](http://keycloak:8080)
-- **API de Gerenciamento de Usuários** em [http://user-management-api:8081](http://user-management-api:8081)
+- **API de Gerenciamento de utilizadores** em [http://user-management-api:8081](http://user-management-api:8081)
 - **API do Gerenciador de Aplicativos** em [http://app-manager-api:8082](http://app-manager-api:8082)
-- Abra a **Interface de Usuário** em [http://igrp-ui:3000](http://igrp-ui:3000)
+- Abra a **Interface de utilizador** em [http://igrp-ui:3000](http://igrp-ui:3000)
 
 
 

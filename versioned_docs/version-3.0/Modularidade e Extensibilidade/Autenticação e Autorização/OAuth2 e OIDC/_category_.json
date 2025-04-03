@@ -3,6 +3,10 @@
     "position": 1,
     "link": {
       "type": "generated-index",
-      "description": " "
+      "description": "O suporte a múltiplos provedores de Identidade e Acesso (IAM) é conseguido através de uma interface abstrata (IAdapter), que atua como contrato para a integração com diferentes serviços. Esta abordagem garante a independência do código relativamente ao provedor escolhido, permitindo a sua substituição sem necessidade de alterar a lógica principal da aplicação.
+
+      A interface IAdapter define um conjunto completo de métodos para a gestão de utilizadores, permissões, papéis (roles), aplicações e departamentos.
+      
+      > Dica: Ao implementar um novo provedor, basta criar uma nova classe XxxAdapter que implemente a interface IAdapter, assegurando o cumprimento dos requisitos funcionais mínimos. "
     }
   }

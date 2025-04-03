@@ -55,7 +55,7 @@ O IGRP é executada em Kubernetes, garantindo segurança, escalabilidade e alta 
   - É importante automatizar o processo de construção, teste e implantação da aplicação para garantir que as atualizações possam ser lançadas rapidamente e com segurança.
 
 - **Segurança**
-  - As aplicações modernas precisam ser seguras para proteger os dados dos usuários e garantir a privacidade. Isso inclui a implementação de medidas de segurança, como autenticação e autorização, auditoria, criptografia e validação de entrada de dados.
+  - As aplicações modernas precisam ser seguras para proteger os dados dos utilizadores e garantir a privacidade. Isso inclui a implementação de medidas de segurança, como autenticação e autorização, auditoria, criptografia e validação de entrada de dados.
 
  - **Monitoramento e rastreamento**
    - Utilizamos ferramentas  **Prometheus** e **Grafana** para monitoramento.

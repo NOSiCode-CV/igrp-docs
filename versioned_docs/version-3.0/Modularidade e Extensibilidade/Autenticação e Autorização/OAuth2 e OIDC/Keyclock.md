@@ -13,55 +13,133 @@ Atualmente, o _Keycloak_ é o fornecedor OAuth2 responsável pela gestão de ace
 #### 2.1 Objetivo
 O _Keycloak_ Adapter facilita a comunicação entre APIs e o servidor _Keycloak_, permitindo a gestão de permissões, papéis e estrutura organizacional. Ele simplifica operações básicas de gestão de utilizadores, mas ações mais complexas devem ser feitas diretamente no painel do _Keycloak_ por um administrador.
 
-Caso seja necessário adicionar outro sistema no futuro, basta criar uma nova implementação da interface.<br></br>
-A interface define os seguintes métodos:
-```
+### Interface
+A interface `IAdapter` define o contrato de integração entre a aplicação e qualquer provedor IAM. Todos os métodos essenciais de autenticação e autorização são centralizados nesta interface.
+
+```java
 public interface IAdapter {
-  public IGRPUserRepresentation getUserByUsername(String username);
-  public IGRPUserRepresentation getUserByEmail(String email);
-  public List<String> getAppsFromUser(String username);
-  public List<IGRPUserRepresentation> getUsersFromDepartment(String department);
-  public List<IGRPUserRepresentation> getUsersFromApp(String app);
-  public IGRPUserRepresentation createUser(String... params); 
-  public List<String> getRolesFromUser(String username);
-  public IGRPUserRepresentation addRoleToUser(String role, String username);
-  public IGRPUserRepresentation removeRoleFromUser(String role, String username);
+
+  IGRPUserRepresentation getUserByUsername(String username);
+  IGRPUserRepresentation getUserByEmail(String email);
+  List<String> getAppsFromUser(String username);
+  List<IGRPUserRepresentation> getUsersFromDepartment(String department);
+  List<IGRPUserRepresentation> getUsersFromApp(String app);
+  IGRPUserRepresentation createUser(String... params);
+  List<String> getRolesFromUser(String username);
+  IGRPUserRepresentation addRoleToUser(String role, String username);
+  IGRPUserRepresentation removeRoleFromUser(String role, String username);
 }
 ```
-Para garantir uma representação partilhada do utilizador, independentemente do _software_ de autenticação, é adicionada a classe **_IGRPUserRepresentation_**. Esta classe armazena informações básicas sobre o utilizador e sua utilização no sistema IGRP.
-```
+
+>🔹 Esta interface deve ser implementada por qualquer novo adapter (ex: AutentikaAdapter, AzureADAdapter).
+
+A classe IGRPUserRepresentation assegura uma representação padronizada do utilizador, independentemente do sistema IAM:
+```java
 public class IGRPUserRepresentation {
   private String username;
   private String email; 
   private List<String> roles; 
   private List<String> applications;
   private List<String> departments;
-
-  // Getters and setters
-  ...
 }
 ```
-#### 2.3 Dependências
-Para a API Java do _Keycloak_, a dependência deve ser adicionada ao ficheiro _pom.xml_. É necessário utilizar a mesma versão do servidor _Keycloak_, por exemplo, se o arquivo _docker-compose_ estiver utilizando a versão 25.0.4:
-```
-# Keycloak server 
-  keycloak:
-    image: keycloak/keycloak:25.0.4
-    command: 
-      - start
-    ...
-```
-O mesmo deve ser refletido da seguinte forma (utilizando a versão 25.0.4):
-```
+
+### Dependências
+Para a integração com o Keycloak via Java API, é necessário adicionar as seguintes dependências no `pom.xml`, respeitando a versão do servidor Keycloak (exemplo: `25.0.4`):
+
+```java
 <dependency>
-        <groupId>org.keycloak</groupId>
-        <artifactId>keycloak-admin-client</artifactId>
-        <version>25.0.4</version>
-    </dependency>
-    <dependency>
-        <groupId>org.keycloak</groupId>
-        <artifactId>keycloak-core</artifactId>
-        <version>25.0.4</version>
-        <scope>provided</scope>
-    </dependency>
+  <groupId>org.keycloak</groupId>
+  <artifactId>keycloak-admin-client</artifactId>
+  <version>25.0.4</version>
+</dependency>
+<dependency>
+  <groupId>org.keycloak</groupId>
+  <artifactId>keycloak-core</artifactId>
+  <version>25.0.4</version>
+  <scope>provided</scope>
+</dependency>
 ```
+
+>⚠️ Assegura que a versão da dependência corresponde à usada no container (ex: `docker-compose` com imagem `keycloak/keycloak:25.0.4`).
+
+### Configuração
+A configuração da ligação ao servidor Keycloak deve ser definida em ficheiros de ambiente (`.env`) e no application.properties.
+```java
+KEYCLOAK_URL=https://keycloak.local
+KEYCLOAK_REALM=igrp
+KEYCLOAK_CLIENT_ID=admin-cli
+KEYCLOAK_USERNAME=admin
+KEYCLOAK_PASSWORD=admin123
+```
+Inicialização do cliente:
+```java
+keycloak = KeycloakBuilder.builder()
+    .serverUrl(KEYCLOAK_URL)
+    .realm(KEYCLOAK_REALM)
+    .clientId("admin-cli")
+    .grantType(OAuth2Constants.PASSWORD)
+    .username(KEYCLOAK_USERNAME)
+    .password(KEYCLOAK_PASSWORD)
+    .build();
+```
+### Implementação
+`KeycloakAdapter.java`
+Esta é a classe principal de integração com o Keycloak, onde a interface `IAdapter` é implementada:
+```java
+public class KeycloakAdapter implements IAdapter {
+  
+  @Override
+  public IGRPUserRepresentation getUserByUsername(String username) {
+    UserRepresentation user = client.searchByUsername(username);
+    return buildUser(user);
+  }
+
+  // Outros métodos implementados aqui...
+
+  private IGRPUserRepresentation buildUser(UserRepresentation user) {
+    // Conversão para estrutura IGRP
+  }
+}
+
+```java
+KeycloakClient.java
+Camada de acesso direto à API do Keycloak:
+
+public class KeycloakClient {
+  
+  public void connect() { ... }
+  public void disconnect() { ... }
+
+  public UserRepresentation searchByUsername(String username) { ... }
+  public List<GroupRepresentation> getGroups(String username) { ... }
+
+  public void setRoles(String username, List<RoleRepresentation> roles) { ... }
+  public void removeRoles(String username, List<RoleRepresentation> roles) { ... }
+
+  public RoleResource getRole(GroupResource group, String roleName) { ... }
+}
+```
+
+Exemplo prático: adicionar role a um utilizador:
+```java
+client.connect();
+
+UserRepresentation user = client.searchByUsername(username);
+List<GroupRepresentation> groups = client.getGroups(username);
+
+RoleResource roleResource = getRoleFromGroups(role, groups);
+if (roleResource == null) {
+  throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Role não disponível.");
+}
+
+client.setRoles(username, Arrays.asList(roleResource.toRepresentation()));
+client.disconnect();
+```
+
+### Boas Práticas
+- ❗ Trata exceções no adapter para enviar mensagens HTTP significativas ao frontend.
+
+- 🔄 Isola lógica de negócio no adapter (`KeycloakAdapter`) e a lógica básica no client (`KeycloakClient`).
+
+- ⚙️ Usa injeção de dependência para alternar entre adapters com base em application.properties.

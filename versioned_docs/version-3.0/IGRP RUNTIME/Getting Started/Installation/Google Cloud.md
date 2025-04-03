@@ -24,7 +24,7 @@ sidebar_position: 5
 
 ### Iniciar o Ambiente
 
-Execute o seguinte comando para iniciar os containers. No caso de usuários do Windows, é recomendado usar o terminal WSL:
+Execute o seguinte comando para iniciar os containers. No caso de utilizadores do Windows, é recomendado usar o terminal WSL:
 
 
 
