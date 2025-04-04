@@ -1,8 +1,10 @@
 {
-    "label": "Security",
+    "label": "Segurança",
     "position": 18,
     "link": {
       "type": "generated-index",
-      "description": "  "
+      "description": " A plataforma IGRP Horizon 3.0 integra o princípio de segurança by-design desde a sua génese, assegurando que cada aplicação desenvolvida cumpre rigorosos padrões de proteção de dados e cibersegurança. Alinhada com o quadro legal nacional — Decreto-Lei n.º 19/2010 e Lei n.º 121/IX/2021 —, garante confidencialidade, integridade, disponibilidade e auditabilidade da informação.
+
+      Num ecossistema digital em constante evolução, a IGRP Horizon 3.0 oferece uma base segura e escalável, onde o desenvolvimento low code to no code não compromete a privacidade, a legalidade nem a confiança. É a resposta sólida para uma governação digital eficaz, segura, inclusiva e responsiva. "
     }
   }
