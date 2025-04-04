@@ -142,4 +142,4 @@ client.disconnect();
 
 - 🔄 Isola lógica de negócio no adapter (`KeycloakAdapter`) e a lógica básica no client (`KeycloakClient`).
 
-- ⚙️ Usa injeção de dependência para alternar entre adapters com base em application.properties.
+- ⚙️ Usa injeção de dependência para alternar entre adapters com base em `application.properties`.
