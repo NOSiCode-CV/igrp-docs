@@ -101,7 +101,8 @@ Onde:
 - **contentType**: Atributo opcional para definir o tipo de conteúdo. Consulte os MimeTypes definidos na aplicação para conhecer os valores aceites para estes atributos (accepts e contentType).
 - **requestBody**: É uma string que representa o nome do objeto que é passado ao endpoint. Por exemplo, se quisermos criar ou registar um novo objeto, o requestBody apenas recebe o nome que queremos dar a este objeto, não o objeto em si.
 - **requestParams**: Os parâmetros que queremos passar ao endpoint. Um parâmetro é um objeto que tem a seguinte estrutura: `{type: "string", name: "string"}`.
-- **response**: O tipo de resposta que o método retornará. Os tipos aceitáveis são: `['String', 'Integer', 'Boolean', 'Object']`. Nota: Se a resposta for um "Object" e o que queremos retornar for uma lista de objetos, apenas temos de marcar `isResponseList` como `true`.
+- **response**: O tipo de resposta que o método retornará. Os tipos aceitáveis são: `['String', 'Integer', 'Boolean', 'Object']`. 
+> Nota: Se a resposta for um `Object` e o que queremos retornar for uma lista de objetos, apenas temos de marcar `isResponseList` como `true`.
 - **pathVariables**: Variáveis que serão incluídas no URL para aceder ao método declarado. É um objeto que deve ter o seguinte formato: `{type: String, name: String}`.
 
 
