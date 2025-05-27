@@ -6,7 +6,6 @@ sidebar_position: 3
 
 Os componentes utilizados no `igrp studio` permitem a construção visual de interfaces dinâmicas e funcionais. Eles possuem suporte a ações como **adicionar**, **editar**, **clonar**, **remover** e **mover**, além de configuração de **bindings** para integração lógica entre inputs e tabelas.
 
----
 
 ### 🔁 Ações Disponíveis nos Componentes
 
@@ -17,7 +16,6 @@ Cada componente da interface pode ser:
 - 📋 **Clonado**
 - 🔀 **Movido** por _drag & drop_ entre diferentes componentes.
 
----
 
 ### ⚙️ Sidebar de Edição
 
@@ -25,13 +23,12 @@ Ao editar um componente, uma **sidebar lateral** é aberta com **três abas prin
 
 1. **Props** – Propriedades específicas do componente
 2. **Styles** – Configurações visuais (margens, fontes, cores etc.)
-3. **Interaction** – Eventos e interações (onClick, onChange, etc.)
+3. **Interaction** – Eventos e interações (_onClick_, _onChange_, etc.)
 
----
 
 ### 📥 Binding de Componentes
 
-Bindings permitem a criacao da interface `ts` do component
+_Bindings_ permitem a criacao da interface `ts` do _component_. A tabela seguinte resume os seus recursos:
 
 | Tipo de Componente | Binding Disponível | Finalidade                                                                           |
 | ------------------ | ------------------ | ------------------------------------------------------------------------------------ |
@@ -40,7 +37,6 @@ Bindings permitem a criacao da interface `ts` do component
 
 > 📌 O **binding** é essencial para que os devlopers possam conchecer a entrada dados da tabela ou formulário.
 
----
 
 ### ➕ Adição de Componentes (Dropzones)
 
@@ -54,7 +50,6 @@ Bindings permitem a criacao da interface `ts` do component
 - O botão `Add Component` é exibido sobre a tabela, abrindo uma **popover** para seleção.
 - Caso for adicionado um `Actions Column` é exibido sobre a columna um `Add Component`, abrindo uma **modal** para adicianr diversos components suportados.
 
----
 
 ### 📦 Tipos de Componentes Disponíveis para Drop
 
@@ -62,18 +57,17 @@ Bindings permitem a criacao da interface `ts` do component
 - Basic Elements (`Dropdown`, `Separator`, `Card`,`Charts`)
 - Structure (`Flex`, `Grid`, `Fragment`,`Container`)
 
----
 
 ### 🧪 Exemplo Visual – Fluxo de drag-and-drop
 
 ```mermaid
-table LR
-    A[Usuário drag-and-drop o componnet do  "Widget palete"]
+flowchart LR
+    A[Utilizador drag-and-drop o componnet do  "Widget palete"]
     B[Por defeito é criado com dois children (table columns, table filters)]
     C[Ao fazer o hover um popover é exibida com tipos de componentes]
-    D[Usuário seleciona um componente]
+    D[Utilizador seleciona um componente]
     E[Componente é adicionado na estrutura visual]
-     F[Usuário edita via Sidebar (Props, Styles, Interaction)]
+     F[Utilizador edita via Sidebar (Props, Styles, Interaction)]
 
     A --> B --> C --> D --> E --> F
 ```
@@ -99,8 +93,6 @@ Você pode associar diversas ações — como `Function`, `Navigation` ou `Form 
 ![Onlaod](../img/page-builder-event-load.png)
 
 
----
-
 ## 🧩 Ações Suportadas
 
 ### 🔧 Function
@@ -110,7 +102,7 @@ Por exemplo, ao clicar em um botão com evento `onClick`, pode-se chamar uma fun
 
 ### 🔀 Navigation
 
-Permite redirecionar o usuário para outra página:
+Permite redirecionar o Utilizador para outra página:
 
 1. Selecione um evento como **`onClick`**.
 2. Escolha o **Action Type** como `Navigation`.
@@ -124,6 +116,5 @@ Permite submeter um formulário com dados preenchidos:
 2. Escolha o **Action Type** como `Form Submit`.
 3. Defina qual formulário será submetido.
 
----
 
-> ⚙️ A associação de eventos e ações permite criar interfaces dinâmicas, reativas e centradas no usuário, facilitando a construção de aplicações modernas com comportamento inteligente.
+> ⚙️ A associação de eventos e ações permite criar interfaces dinâmicas, reativas e centradas no utilizador, facilitando a construção de aplicações modernas com comportamento inteligente.
