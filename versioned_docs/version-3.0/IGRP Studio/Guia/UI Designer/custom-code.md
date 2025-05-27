@@ -56,7 +56,7 @@ const [contador, setContador] = useState(0);
 ![Preview da Lista de Páginas](../img/page-build-custon-code-state.png)
 
 
-## Usage Notes
+## Observaçōes
     - Todos os **Custom Code** aqui criada fica dentro da pagina a editar 
 
 ## ⚙️ Registro de Configuração – `igrp.studio.ts`

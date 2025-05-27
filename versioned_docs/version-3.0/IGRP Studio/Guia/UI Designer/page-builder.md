@@ -8,6 +8,8 @@ Esta página representa o **page builder** com suporte a **drag-and-drop** dentr
 
 ## 🧭 Visão Geral da Interface
 
+![alt text](../img/page-builder-overview.png)
+
 ### 📌 Barra Lateral de Navegação
 
 A barra lateral à esquerda oferece acesso aos principais módulos da aplicação:
@@ -55,7 +57,7 @@ Possui também um campo de **busca** rápida (`Search ⌘F`) para localizar comp
 ## Development Components
 
 ### 🎯 Área de Design (Canvas)
-  Nessa região, o utilizador pode **arrastar e soltar** os componentes disponíveis para construir sua interface.
+  Nessa região, o utilizador pode **drag-and-drop** os componentes disponíveis para construir sua interface.
 
 - Botões para alternar entre:
   - **Code** (Visualizar código)
