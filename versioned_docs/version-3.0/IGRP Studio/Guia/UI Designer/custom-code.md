@@ -57,20 +57,6 @@ const [contador, setContador] = useState(0);
 
 ![Preview da Lista de Páginas](../img/page-build-custon-code-state.png)
 
-## ⚡ Eventos Suportados
-
-Você pode associar funções personalizadas a eventos comuns da interface para controlar comportamentos e fluxos da aplicação de forma reativa.
-
-### Eventos disponíveis (Interactions):
-
-- **`onClick`** – Disparado ao clicar em um botão ou elemento interativo. Ideal para ações como navegação, submissão, ou chamadas de API.
-
-- **`onChange`** – Disparado quando o valor de um campo de input é alterado.Útil para validação dinâmica, atualização de estados ou filtragem de dados.
-
-- **`onLoad`** – Executado ao carregar um componente ou página. Comumente usado para carregar dados iniciais ou configurar o estado da interface.
-
-- **`onSubmit`** – Chamado ao submeter um formulário. Excelente para validação de campos e envio de dados para o backend.
-
 ---
 
 ## Usage Notes
