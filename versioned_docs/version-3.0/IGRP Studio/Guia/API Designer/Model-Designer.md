@@ -6,62 +6,119 @@ sidebar_position: 5
 
 O Projecto Spring permite a criação e configuração de modelos, CRUDs, controladores e DTOs de forma automatizada. Abaixo, detalhamos cada componente:
 
-![Interface para criar novo modelo](img/criar-modelo.png)
-![Vista geral da interface de modelos](img/interface-modelo.png)
-![Ecrã de edição de modelo existente](img/edit-modelo.png)
-![Recursos usados na criação de modelos](img/recursos-criar-modelo.png)
 
-## Novo Endpoint
+## Criação de Módulos
 
-- **Descrição**: Cria controladores REST (`@RestController`) com métodos associados a rotas HTTP.
-- **Internamente**: Gera ficheiros no módulo `Controlador`, usando `generateController.ts`.
-- **Parâmetros**: Caminho do endpoint, tipo de resposta, variáveis, `requestBody`, `requestParams`, etc.
-- **Spring Boot**: Usa `@GetMapping`, `@PostMapping`, etc., com retorno de DTOs.
-- **Nota Técnica**: A interface de serviço é também gerada e os métodos devem ser posteriormente implementados.
+Organize a aplicação em **módulos**, de acordo com os domínios do negócio.
 
+![Criação de módulo](img/novo-modelo.png)
 
-## Novo DTO (Data Transfer Object)
+### Para criar um módulo:
+1. Clicar em `Novo Módulo`
+2. Introduzir o nome (ex: `pessoa`)
+3. Guardar o módulo
 
-Os **DTOs** são gerados para transferir dados entre as camadas da aplicação. Eles são criados com base nos modelos e podem ser personalizados para incluir apenas os atributos necessários.
+![Criação de módulo](img/novo-modelo-desc.png)
 
-**Funcionalidades:**
-- **Geração de DTOs**: Os DTOs são gerados automaticamente com base nos modelos, permitindo a transferência de dados de forma segura e eficiente.
-- **Personalização**: Os DTOs podem ser configurados para incluir ou excluir atributos específicos.
+## Definição de DTOs (Data Transfer Objects)
 
+Crie os **DTOs** responsáveis por transportar dados entre as camadas da aplicação.
+![Criação de módulo](img/novo-dto.png
 
-## Novo Schema
+### Exemplo:
+- DTO: `PessoaRequest`
+- Campos:
+  - `nome` (string)
+  - `idade` (string)
+  - `nif` (string)
 
-- **Descrição**: Define a estrutura dos dados persistentes da aplicação (modelo de domínio).
-- **Internamente**: Gera ficheiros Java com classes `@Entity`, associadas a `JpaRepository`.
-- **Processo**: Utiliza `modelResourceGenerator()` com `templateGenerator()` para criar os modelos.
-- **Relações Suportadas**: `@OneToOne`, `@OneToMany`, `@ManyToMany`, definidas no ficheiro de configuração do modelo.
-
-![Exemplo de modelo de pedido](img/demo-modelo-pedido.png)
-![Recursos associados ao modelo](img/recursos-modelo.png)
-![Diagrama ERD com relações entre entidades](img/DiagramERD.png)
-
-## Api CRUDs
-
-O **Spring Engine** permite a geração automática de operações CRUD (**Create, Read, Update, Delete**) para os modelos. O CRUD é gerado como um repositório que estende a interface `CrudRepository` do **Spring Data JPA**.
+![Criação de módulo](img/novo-dto-desc.png)
 
 
-## Novo Enum
+### Configurar validações:
+- `Required`, `Email`, `MinLength`, `MaxLength`, entre outros
 
-- **Descrição**: Tipo especial que define conjuntos de valores constantes.
-- **Exemplo de uso**: Campos como `StatusPedido {PENDENTE, CONFIRMADO, CANCELADO}`.
-- **Spring Boot**: Usado em campos de entidade com `@Enumerated(EnumType.STRING)`.
+![Definição de DTO](img/novo-dto-propriedade.png)
 
 
-## Nova Resposta
+## Definição de Endpoints e Ações
 
-- **Descrição**: Define a estrutura de dados padrão de retorno dos endpoints.
-- **Padrão recomendado**:
-```java
-public class ApiResponse<T> {
-    private String mensagem;
-    private T dados;
-}
-```
+Configure os **endpoints REST** e associe as respetivas ações.
+
+### Exemplo:
+- Endpoint: `Pessoa`
+  - Base path: `/pessoas`
+  - Ações:
+    - `criarPessoa` (POST)
+    - `obterPessoaPorId` (GET)
+
+![Definição de Endpoints](img/novo-endpoint.png)
+
+
+### Configurações para cada ação:
+- Método HTTP (`GET`, `POST`, ...)
+- Parâmetros e corpo da requisição
+- Tipo de conteúdo: `application/json`
+- Esquema de resposta
+
+![Definição de Endpoints](img/novo-endpoint-desc.png)
+
+
+## Implementação Automática
+
+O IGRP Studio gera automaticamente:
+
+- **Controladores** com base nos endpoints definidos
+- Implementações de **Commands e Queries** seguindo o padrão **CQRS**:
+  - `Command` para criar pessoa
+  - `Query` para obter pessoa
+  - Handlers correspondentes
+
+![Código gerado: Controladores](img/implementacao-controlador-code.png)
+![Código gerado: Commands e Queries](img/implementacao-controlador-code.png)
+
+
+## Modelagem de Entidades
+
+Crie o **modelo de domínio** através de schemas.
+
+### Exemplo: Entidade `Pessoa`
+- Campos:
+  - `id` (integer, chave primária)
+  - `nome` (string)
+  - `idade` (string)
+  - `nif` (string)
+- Configurações:
+  - Nome da tabela
+  - Auditoria
+  - Revisão
+
+O IGRP Studio gera automaticamente:
+- Classe da entidade
+- Repositórios JPA
+
+![Modelagem de Entidades](img/implementa-controlador-code_cria-pessoa.png)
+
+
+## Configuração do Banco de Dados
+
+As configurações da base de dados são definidas em ficheiros de propriedades.
+
+### Ficheiros principais:
+- `application-development.properties`
+- `.env` com variáveis de ambiente
+
+![Configuração da BD](img/env.png)
+
+
+## Módulo Shared
+
+O projeto inclui um módulo especial: `shared`, criado automaticamente.
+
+### Função:
+Contém **código reutilizável**, comum a vários domínios (ex: utilitários, constantes, exceções).
+
+![Representação do Módulo Shared](img/shared-studio.png)
 
 ## Eliminar
 Descrição: Permite remover qualquer recurso anteriormente criado (endpoint, modelo, DTO, etc.).
@@ -70,3 +127,10 @@ Descrição: Permite remover qualquer recurso anteriormente criado (endpoint, mo
 
 ![Remoção de modelo de pedido](img/remover-demo-modelo-pedido.png)
 
+
+## Considerações Finais
+A estrutura criada pelo IGRP Studio respeita os princípios de:
+- **Domain-Driven Design (DDD)**
+- **Clean Architecture**
+- **Separação de responsabilidades**
+- **Automação com boas práticas**
