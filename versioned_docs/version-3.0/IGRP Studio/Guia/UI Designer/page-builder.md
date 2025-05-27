@@ -55,7 +55,7 @@ Possui também um campo de **busca** rápida (`Search ⌘F`) para localizar comp
 ## Development Components
 
 ### 🎯 Área de Design (Canvas)
-  Nessa região, o usuário pode **arrastar e soltar** os componentes disponíveis para construir sua interface.
+  Nessa região, o utilizador pode **arrastar e soltar** os componentes disponíveis para construir sua interface.
 
 - Botões para alternar entre:
   - **Code** (Visualizar código)

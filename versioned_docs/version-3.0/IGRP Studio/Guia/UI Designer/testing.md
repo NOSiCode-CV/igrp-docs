@@ -8,7 +8,7 @@ sidebar_position: 5
 
 Após construir sua página usando o **IGRP Studio**, você poderá executar o projeto localmente em ambiente Next.js.
 
----
+
 
 ### 📁 Estrutura do Projeto Gerado
 
@@ -27,14 +27,14 @@ src/
 
 Essa estrutura segue o padrão de aplicações Next.js com suporte a rotas e carregamento automático de componentes.
 
----
+
 
 ### 🧰 Requisitos
 
 - **Node.js** 18+ recomendado
 - **pnpm**, **npm** ou **yarn**
 
----
+
 
 ### 🚀 Executar em Ambiente de Desenvolvimento
 
@@ -74,7 +74,7 @@ Em Caso de pre-visualizar uma pagina especifica acrescenta a esse endereço a `p
 ```
 http://localhost:3000/listadecontribuintes
 ```
----
+
 
 ### ✅ O que Verificar
 
@@ -82,7 +82,7 @@ http://localhost:3000/listadecontribuintes
 - Ações como botões, inputs e formulários devem funcionar conforme esperado.
 - Verifique se as funções definidas no `igrp.studio.ts` (por exemplo em `functions/`) estão integradas corretamente.
 
----
+
 
 ### 📝 Observação
 

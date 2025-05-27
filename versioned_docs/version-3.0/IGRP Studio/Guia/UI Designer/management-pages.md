@@ -39,7 +39,6 @@ Para adicionar uma nova página à sua aplicação:
 
 3. Clique em **"Save"** para confirmar a criação da nova página.
 
----
 
 > ✅ A página será adicionada à estrutura do projeto e estará disponível para edição no page builder.
 
@@ -58,7 +57,7 @@ Durante a edição de uma página no construtor visual, você pode:
    - **Interaction** (Interações)
 4. Clicar em **"Save"** para salvar e publicar a estrutura da página no projeto.
 
----
+
 
 ### 🗑️ Eliminar Página
 
