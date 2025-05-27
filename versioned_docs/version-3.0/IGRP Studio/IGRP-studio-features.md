@@ -5,9 +5,7 @@ sidebar_position: 5
 # Funcionalidades 
 
 ## Interface do Utilizador
-A **IGRP UI** é uma aplicação desenvolvida para a criação de **aplicações Web** e **APIs REST** no ecossistema **IGRP**. O **IGRP Studio** foca-se exclusivamente na interface do utilizador, fornecendo as ferramentas necessárias para configurar aplicações que serão processadas pelos motores de geração (**Engines**).
-
-A interface do **IGRP Studio** é desenvolvida com **Electron, React e Vite**, garantindo alto desempenho e flexibilidade.  
+A **IGRP UI** é uma aplicação desenvolvida para a criação de **aplicações Web** e **APIs REST** no ecossistema **IGRP**. O **IGRP Studio** foca-se exclusivamente na interface do utilizador, fornecendo as ferramentas necessárias para configurar aplicações que serão processadas pelos motores de geração (**Engines**). 
 
 
 ## Gerador de Páginas

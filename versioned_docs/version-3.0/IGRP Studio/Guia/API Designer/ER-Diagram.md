@@ -53,6 +53,8 @@ Um estado pode ter várias cidades, mas cada cidade pertence a um único estado.
 ### 2.2. Estado – Configuração (lado proprietário / owner)
 
 ![Configuração One-to-Many proprietário](img/relacao-one-to-many-owner.png)
+![Modelo Lógico ER](img/DiagramERD.png)
+
 
 ### 2.3. Cidade – Código Gerado (lado inverso)
 
