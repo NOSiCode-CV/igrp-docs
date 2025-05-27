@@ -96,6 +96,9 @@ Você pode associar diversas ações — como `Function`, `Navigation` ou `Form 
 - **`onSubmit`** – Executado ao submeter um formulário.  
   Utilizado para validação final dos campos e envio de dados ao backend.
 
+![Onlaod](../img/page-builder-event-load.png)
+
+
 ---
 
 ## 🧩 Ações Suportadas
