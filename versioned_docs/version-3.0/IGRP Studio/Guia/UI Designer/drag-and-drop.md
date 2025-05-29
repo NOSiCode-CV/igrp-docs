@@ -21,7 +21,7 @@ Ao editar um componente, uma **sidebar lateral** é aberta com **três abas prin
 
 1. **Props** – Propriedades específicas do componente
 2. **Styles** – Configurações visuais (margens, fontes, cores etc.)
-3. **Interaction** – Eventos e interações (_onClick_, _onChange_, etc.)
+3. **Interaction** – Eventos, Rules e interações (_onClick_, _onChange_, _visibility_,etc.)
 
 ### 📥 Binding de Componentes
 
@@ -129,10 +129,58 @@ Permite submeter um formulário com dados preenchidos:
 2. Escolha o **Action Type** como `Form Submit`.
 3. Defina qual formulário será submetido.
 
-### Exemplo 
+### Exemplo
+
 Aqui temos um exemplo de um `custom code` a executar no evento onLoad da pagina, e com imports.
 
 ![alt text](../img/page-builder-interaction.png)
 
-
 > ⚙️ A associação de eventos e ações permite criar interfaces dinâmicas, reativas e centradas no utilizador, facilitando a construção de aplicações modernas com comportamento inteligente.
+
+### ⚙️ Como usar Rules
+
+A funcionalidade de **Regras** permite criar comportamentos dinâmicos, como visibilidade, modo somente leitura ou desativação de componentes com base em condições definidas por você.
+
+---
+
+### 💡 Finalidade
+
+Associe lógica condicional aos componentes, como por exemplo:
+
+- Exibir um campo apenas quando outro campo tiver um valor específico
+- Tornar um componente somente leitura baseado em uma regra
+- Desativar uma ação se uma caixa de seleção estiver desmarcada
+
+---
+
+### 🔁 Exemplo 1: Renderização condicional
+
+Mostrar um componente apenas se uma regra for satisfeita:
+
+```tsx
+state1
+```
+
+### ⚙️ Exemplo 2: Lógica de comparação
+
+Mostrar um componente apenas se uma regra for satisfeita:
+
+```tsx
+state2 === "valor"
+```
+
+### 🧩 Exemplo 3: Combinação de múltiplos estado
+
+Mostrar um componente apenas se uma regra for satisfeita:
+
+```tsx
+ state1 && state2
+```
+
+> ✨ Dica: Use a aba `Custom Code` para criar um estado como
+> **_showFilter_**, e defina esse estado através de um botão com o evento
+> **_onClick_**. Assim, você poderá controlar a visibilidade com:
+
+```tsx
+   ›`{showFilter && <ComponenteDeFiltro />}`
+  ```
