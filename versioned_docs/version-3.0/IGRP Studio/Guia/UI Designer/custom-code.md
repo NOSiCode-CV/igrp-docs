@@ -29,14 +29,13 @@ Na Navegação `Custom Code`, ao clicar em `+` `Dropdown` e selecionar `Function
   - `Is List` / `Nullable`: define se o retorno é uma lista e se permite `null`.
   - `Arguments`: adicione argumentos com nome, tipo e valor por defeito.
 
-
 ### Exemplo:
 
 ```tsx
 function getStatusBadge(status: string): string {
-  if (status === 'active') return '✅ Ativo';
-  if (status === 'inactive') return '❌ Inativo';
-  return 'ℹ️ Desconhecido';
+  if (status === "active") return "✅ Ativo";
+  if (status === "inactive") return "❌ Inativo";
+  return "ℹ️ Desconhecido";
 }
 ```
 
@@ -49,15 +48,16 @@ Ao criar uma function pode reulizar outras `functions`, `states` or `snippets co
 Os **estados** funcionam como variáveis reativas que armazenam e controlam valores da interface. Eles podem ser atualizados em tempo real com base em interações do utilizador.
 
 ### 📌 Exemplo de state:
+
 ```js
 const [contador, setContador] = useState(0);
 ```
 
 ![Preview da Lista de Páginas](../img/page-build-custon-code-state.png)
 
-
 ## Observaçōes
-    - Todos os **Custom Code** aqui criada fica dentro da pagina a editar 
+
+    - Todos os **Custom Code** aqui criada fica dentro da pagina a editar
 
 ## ⚙️ Registro de Configuração – `igrp.studio.ts`
 
@@ -70,8 +70,7 @@ Ele permite registrar:
 
 - **Tipos (`types`)**: Interfaces ou aliases do TypeScript para modelos de dados estruturados.
 - **Ações (`actions`)**: Lógicas executáveis para operações.
-- **Funções (`functions`)**: Lógicas reutilizáveis específicas da aplicação. 
-
+- **Funções (`functions`)**: Lógicas reutilizáveis específicas da aplicação.
 
 ### 📘 Regras de Registro
 
@@ -79,14 +78,15 @@ Ele permite registrar:
 2. Os caminhos são relativos ao diretório `src/app/(myapp)`.
 3. As categorias são opcionais, mas cada uma deve conter pelo menos uma entrada válida.
 
-
 ### ✅ Exemplos Válidos
- 
+
 ```ts
 {
   types: ['types/User'],
   actions: ['server/actions/saveUser'],
   functions: ['client/forms/useUserForm']
+  components: ['components/shared-ui']
 }
+```
 
 
