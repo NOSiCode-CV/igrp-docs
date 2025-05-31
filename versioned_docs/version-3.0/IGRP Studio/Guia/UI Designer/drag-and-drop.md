@@ -174,13 +174,13 @@ state2 === "valor"
 Mostrar um componente apenas se uma regra for satisfeita:
 
 ```tsx
- state1 && state2
+state1 && state2
 ```
 
 > ✨ Dica: Use a aba `Custom Code` para criar um estado como
 > **_showFilter_**, e defina esse estado através de um botão com o evento
 > **_onClick_**. Assim, você poderá controlar a visibilidade com:
 
+
 ```tsx
-   ›`{showFilter && <ComponenteDeFiltro />}`
-  ```
+() => setShowFilter(!showFilter)
