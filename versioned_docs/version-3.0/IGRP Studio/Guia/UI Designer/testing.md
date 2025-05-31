@@ -1,7 +1,7 @@
 ---
 id: executar-projeto
 title: Executar Projeto Gerado com Next.js
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## ▶️ Executar e Testar Projeto Gerado com Next.js
