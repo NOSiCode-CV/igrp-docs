@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Page Builder Overview
+# Page Builder
 
 Esta página representa o **page builder** com suporte a **drag-and-drop** dentro de uma plataforma _low-code_, facilitando a criação de paginas e interfaces dinâmicas.
 

@@ -74,7 +74,6 @@ O IGRP Studio gera automaticamente:
   - `Query` para obter pessoa
   - Handlers correspondentes
 
-# Classe `PessoaController`
 
 ```java
 public class PessoaController {
@@ -131,18 +130,6 @@ public class PessoaController {
 ## Modelagem de Entidades
 
 Crie o **modelo de domínio** através de schemas.
-
-### Exemplo: Entidade `Pessoa`
-- Campos:
-  - `id` (integer, chave primária)
-  - `nome` (string)
-  - `idade` (string)
-  - `nif` (string)
-- Configurações:
-  - Nome da tabela
-  - Auditoria
-  - Revisão
-
 O IGRP Studio gera automaticamente:
 - Classe da entidade
 - Repositórios JPA
