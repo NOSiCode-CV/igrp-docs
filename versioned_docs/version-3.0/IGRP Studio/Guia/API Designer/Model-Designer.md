@@ -74,8 +74,58 @@ O IGRP Studio gera automaticamente:
   - `Query` para obter pessoa
   - Handlers correspondentes
 
-![Código gerado: Controladores](img/implementacao-controlador-code.png)
-![Código gerado: Commands e Queries](img/implementacao-controlador-code.png)
+# Classe `PessoaController`
+
+```java
+public class PessoaController {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(PessoaController.class);
+
+    private final CommandBus commandBus;
+    private final QueryBus queryBus;
+
+    public PessoaController(
+        CommandBus commandBus, QueryBus queryBus
+    ) {
+        this.commandBus = commandBus;
+        this.queryBus = queryBus;
+    }
+
+    @PostMapping
+    @Operation(
+        summary = "POST method to handle operations for criaPessoa",
+        description = "POST method to handle operations for criaPessoa",
+        responses = {
+            @ApiResponse(
+                responseCode = "200",
+                description = "",
+                content = @Content(
+                    mediaType = "application/json",
+                    schema = @Schema(,
+                    implementation = DTO.class,
+                    type = "")
+                )
+            )
+        }
+    )
+
+    public ResponseEntity<Dto> criaPessoa(
+    @RequestBody String criaPessoaRequest,
+    @RequestParam(value = "id") Integer id,
+    @RequestParam(value = "nome") String nome
+) {
+    LOGGER.debug("Operation started - Endpoint: {}, Action: {}", "PessoaController", "criaPessoa");
+    
+    final var command = new CriaPessoaCommand(criaPessoaRequest, id, nome);
+    ResponseEntity<Dto> response = commandBus.send(command);
+    
+    LOGGER.debug("Operation finished - Endpoint: {}, Action: {}", "PessoaController", "criaPessoa");
+    
+    return ResponseEntity.status(response.getStatusCode())
+                         .headers(response.getHeaders())
+                         .body(response.getBody());
+}
+```
 
 
 ## Modelagem de Entidades
@@ -97,7 +147,28 @@ O IGRP Studio gera automaticamente:
 - Classe da entidade
 - Repositórios JPA
 
-![Modelagem de Entidades](img/implementa-controlador-code_cria-pessoa.png)
+
+```java
+import cv.igrp.framework.core.domain.Command;
+import jakarta.validation.constraints.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CriaPessoaCommand implements Command {
+
+    private String criaPessoaRequest;
+
+    @NotNull(message = "The field <id> is required.")
+    private Integer id;
+
+    @NotBlank(message = "The field <nome> is required.")
+    private String nome;
+}
+```
 
 
 ## Configuração do Banco de Dados
@@ -108,7 +179,29 @@ As configurações da base de dados são definidas em ficheiros de propriedades.
 - `application-development.properties`
 - `.env` com variáveis de ambiente
 
-![Configuração da BD](img/env.png)
+# Variáveis de Ambiente (.env)
+
+```.env
+SERVICE_PROFILE=development
+SERVICE_PORT=8080
+SERVICE_NAME=teste-service
+
+LOGGING_LEVEL_ROOT=INFO
+LOGGING_LEVEL_SPRING_WEB=DEBUG
+LOGGING_LEVEL_APP=DEBUG
+
+POSTGRES_SERVICE_NAME=postgres
+POSTGRES_HOST=host.docker.internal
+POSTGRES_INTERNAL_PORT=5432
+POSTGRES_EXTERNAL_PORT=5432
+POSTGRES_DATABASE=teste_db
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+
+AUTH_JWT_ISSUER=http://localhost:8090/realms/quickstart
+
+ENABLE_SWAGGER=true
+```
 
 
 ## Módulo Shared
