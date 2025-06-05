@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# drag-and-drop
+# Drag & Drop
 
 Os componentes utilizados no `igrp studio` permitem a construção visual de interfaces dinâmicas e funcionais. Eles possuem suporte a ações como **adicionar**, **editar**, **clonar**, **remover** e **mover**, além de configuração de **bindings** para integração lógica entre inputs e tabelas.
 
